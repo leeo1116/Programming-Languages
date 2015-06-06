@@ -28,3 +28,6 @@ print(sqr)
 sqr = [x**2 for x in range(10)]
 print(sqr)
 print([(x, y) for x in [1, 2, 3] for y in [3, 1, 4] if x != y])
+
+freshfruit = [' banana', ' loganberry ', 'passion fruit ']
+print([weapon.strip() for weapon in freshfruit])
