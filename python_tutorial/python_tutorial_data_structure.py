@@ -61,3 +61,4 @@ for i in range(4):
 # builtin function -- zip()
 print(list(zip(*matrix)))
 
+del matrix
