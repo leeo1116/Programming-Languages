@@ -62,3 +62,38 @@ for i in range(4):
 print(list(zip(*matrix)))
 
 del matrix
+
+# Tuples
+t = 12345, 54321, 'hello!'
+u = t, (1, 2, 3, 4, 5)
+empty = ()
+singleton = "hello",  # comma is necessary
+t = 12345, 54321, 'hello!'
+x, y, z = t
+print(t)
+print(u)
+print(len(singleton))
+
+# Sets
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket) # show that duplicates have been removed
+print('orange' in basket)
+a = set('abracadabra')
+b = set('alacazam')
+print(a)
+print(a-b)
+print(a | b)
+print(a & b)
+print(a ^ b)
+a = {x for x in 'abracadabra' if x not in 'abc'}  # sets comprehension
+print(a)
+
+# Dictionary
+print(dict([('sape', 4139), ('guido', 4127), ('jack', 4098)]))
+print(dict({('sape', 4139), ('guido', 4127), ('jack', 4098)}))
+
+dict1 = {x: x**2 for x in (2, 4, 6)}
+print(dict1)
+print(dict1[4])
+
+
