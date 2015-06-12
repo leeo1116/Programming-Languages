@@ -206,3 +206,24 @@ if __name__ == "__main__":
 
 import sys
 print(dir(sys))
+
+# Module = a file with defined function and variables, package = a collection of modules
+# __init__(self, a, b, ...), self refers to the instance object
+
+# input and output
+# typical format placeholder: %[flags][width][.precision]type
+# http://www.python-course.eu/python3_formatted_output.php
+for x in range(1, 11):
+    print(repr(x).rjust(2)[:2], repr(x*x).rjust(3).rjust(3), repr(x*x*x).rjust(4))
+
+for x in range(1, 11):
+    print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+
+print('We are the {} who say "{}!"'.format('knights', 'Ni'))
+print('{0} and {1}'.format('spam', 'eggs'))
+print('This {food} is {adjective}.'.format(\
+food='spam', adjective='absolutely horrible'))  # key word arguments
+print('The story of {0}, {1}, and {other}.'.format('Bill', 'Manfred', other='Georg'))
+
+import math
+print('The value of PI is approximately {!a}.'.format(math.pi))  # !r, !s, !a
