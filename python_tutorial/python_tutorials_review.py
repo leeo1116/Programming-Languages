@@ -226,4 +226,44 @@ food='spam', adjective='absolutely horrible'))  # key word arguments
 print('The story of {0}, {1}, and {other}.'.format('Bill', 'Manfred', other='Georg'))
 
 import math
-print('The value of PI is approximately {!a}.'.format(math.pi))  # !r, !s, !a
+print('The value of PI is approximately {!a}.'.format(math.pi))  # !r, !s, !a -- repr, str, ascii
+print('The value of PI is approximately %5.3f.' % math.pi)
+
+
+with open('TestFile.txt', 'rb+') as f:
+    read_data = f.read()
+    print(read_data)
+
+f = open('TestFile.txt', 'r+')
+for line in f:
+    print(line, end='')
+
+f.seek(0)
+print(f.read(), end="\n======")
+f.seek(0)
+print(f.readline())
+for line in f:
+    print(line, end='')
+f.seek(0)
+all_data = list(f)
+print(all_data)
+f.seek(0)
+print(f.readlines())
+
+# write operations
+value = 'the answer is: {!a}'.format(10)
+s = str(value)
+f.write(s)
+f.seek(0)
+print(f.read())
+f.seek(0)
+f.write(r'0123456789abcdef')
+f.seek(0)
+print(f.read())
+
+# JSON
+import json
+# json.dump(x, f), dump to json file
+with open("TestFile.json") as json_file:
+    json_data = json.load(json_file)
+    print(json_data)
