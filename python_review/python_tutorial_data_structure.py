@@ -74,7 +74,7 @@ print(t)
 print(u)
 print(len(singleton))
 
-# Sets
+# Sets: A set is an unordered collection with no duplicate elements
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
 print(basket) # show that duplicates have been removed
 print('orange' in basket)
