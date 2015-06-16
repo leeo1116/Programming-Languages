@@ -267,3 +267,31 @@ import json
 with open("TestFile.json") as json_file:
     json_data = json.load(json_file)
     print(json_data)
+
+
+# Iterator
+class Reverse:
+    """ Iterator for looping over a sequence backwards
+    __iter__, __next__
+    the for statement calls iter() on the container object.
+    The function returns an iterator object that defines
+    the method __next__() which accesses elements in the
+    container one at a time. When there are no more elements,
+    __next__() raises a StopIteration exception which tells the for loop to terminate.
+    """
+    def __init__(self, data):
+        self.data = data
+        self.index = len(data)
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.index == 0:
+            raise StopIteration
+        self.index = self.index-1
+        return self.data[self.index]
+
+rev = Reverse("Liang Li")
+print(iter(rev))
+for char in rev:
+    print(char)
+
