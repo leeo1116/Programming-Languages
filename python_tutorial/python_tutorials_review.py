@@ -295,3 +295,21 @@ print(iter(rev))
 for char in rev:
     print(char)
 
+# Generator: tool for creating iterator, use yield to return data
+def reverse(data):
+    for index in range(len(data)-1,-1, -1):
+        yield   data[index]
+
+for char in reverse("man"):
+    print(char)
+
+print(sum(i*i for i in range(10)))
+xvec = [10, 20, 30]
+yvec = [7, 5, 3]
+print(sum(x*y for x, y in zip(xvec, yvec)))
+from math import pi, sin
+sin_table = {x: sin(x*pi/180) for x in range(0, 91)}
+# unique_words = set(word for line in page for word in line.split())
+# valedictorian = max((student.gpa, student.name) for student in graduates)
+data = "golf"
+print(list(data[i] for i in range(len(data)-1, -1, -1)))
