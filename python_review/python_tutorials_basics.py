@@ -125,6 +125,10 @@ print(f(3))
 f(a=10, L=list(range(9)))
 
 def cheeseshop(kind, *arguments, **keywords):
+    # *arguments receives a tuple containing the
+    # positional arguments beyond the formal parameter list.
+    # **keywords receives a dictionary
+    # (*name must occur before **name.)
     print("-- Do you have any ", kind, '?')
     print("-- I'm sorry, we're all out of ", kind)
     for arg in arguments:
