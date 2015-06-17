@@ -1,9 +1,9 @@
 __author__ = 'liangl2'
 import datetime
 import holidays
-import outlook
-# send to, cc, subject
-subject = "Test"
+from email_generator import outlook
+
+subject = "Timesheet"
 # to = "timesheet@infoyogi.com"
 # cc = "msapozhn@cisco.com; rao@BBITechnologies.com"
 to = "leeo1116@gmail.com"
