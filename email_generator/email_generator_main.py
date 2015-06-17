@@ -1,14 +1,12 @@
 __author__ = 'liangl2'
 import datetime
 import holidays
-from email_generator import outlook
+import outlook
+# from email_generator import outlook
 
 subject = "Timesheet"
-# to = "timesheet@infoyogi.com"
-# cc = "msapozhn@cisco.com; rao@BBITechnologies.com"
-to = "leeo1116@gmail.com"
-cc = ""
-# cc = "leeo1116@gmail.com"
+to = "timesheet@infoyogi.com"
+cc = "msapozhn@cisco.com; rao@BBITechnologies.com"
 
 manager_info = "Manager Name : Mike Sapozhnikov\nCan you please approve my timesheet for "
 workdays = 7
