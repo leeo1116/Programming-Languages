@@ -21,3 +21,30 @@ def send(subject, to, cc, body, bcc=None, *attachment):
         mail.Attachments.Add(a)
     mail.display()
     #mail.Send()
+
+def smtp_send(user, password, send_from, send_to, subject, body):
+    """
+    :param user: leeo1116@gmail.com
+    :param password: :)
+    :param send_from: leeo1116@gmail.com
+    :param send_to: must be a list
+    :param subject:
+    :param body:
+    :return:
+    """
+    import smtplib
+    #  Prepare actual message
+    message = """\From: %s\nTo: %s\nSubject: %s\n\n%s
+            """ % (send_from, ", ".join(send_to), subject, body)
+    try:
+        server = smtplib.SMTP("smtp.gmail.com", 587)  # or port 465 doesn't seem to work!
+        server.ehlo()
+        server.starttls()
+        server.login(user, password)
+        server.sendmail(send_from, send_to, message)
+        server.close()
+        print("Send email successfully!")
+    except:
+        print("SMTP server setup error!")
+        raise
+
