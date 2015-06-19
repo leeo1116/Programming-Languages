@@ -17,10 +17,28 @@ def web_spider(url):
             href = link.get("href")
             print(link_text, ':', href)
 
+    # Check if "Diversity and Inclusion" is under a tab
+    all_li_tags = soup.findAll("li")
+    all_li_string = soup.get_text("li")
+    all_li_string = all_li_string.replace("li", "")
+    print(all_li_string)
+        #print((li_tag.string))
+        # all_li_string += li_tag.string
+
+
     # Check if "search" is in tag attributes
     all_tags = soup.findAll(True)
-    all_tags_string = []
-    all_tags_string.append(list(tag.attrs.values()) for tag in all_tags)
+    #print('\n'.join([tag.name for tag in all_tags]))
+    all_tags_string = ''
+    for tag in all_tags:
+        tag_attrs_value = list(tag.attrs.values())
+        for value in tag_attrs_value:
+            ele_type = type(value)
+            while ele_type is not str:
+                value = ''.join(value)
+                ele_type = type(value)
+            all_tags_string += value
+    print("search" in all_tags_string.lower())
 
 def read_url_database(database_file):
     pass
