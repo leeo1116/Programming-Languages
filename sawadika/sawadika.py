@@ -16,4 +16,6 @@ def web_spider(url):
             href = link.get("href")
             print(link_text, ':', href)
 
+def read_url_database(database_file):
+    pass
 web_spider("http://www.unitedway.org/")
