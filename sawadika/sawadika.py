@@ -1,45 +1,51 @@
-__author__ = 'Liang Li'
-import requests
-from bs4 import BeautifulSoup
+__author__ = 'liangl2'
+# https://openpyxl.readthedocs.org/en/latest/tutorial.html#loading-from-a-file
+from openpyxl import Workbook
+from openpyxl import load_workbook
+from hxg import diversity_inclusion_search
 
-def web_spider(url):
-    link_set = set()
-    source_code = requests.get(url)
-    plain_txt = source_code.text
-    if "Diversity".lower() in plain_txt.lower() and "Inclusion".lower() in plain_txt.lower():
-        print("Diversity and Inclusion found!")
-    soup = BeautifulSoup(plain_txt)
+wb = load_workbook(filename="websites  audit.xlsx")
+ws = wb.active
+url_list = []
+row_num = 1
+for cell in ws.columns[1]:  # get column B value cell by cell, ws.column[1][:].value
+    print("Processing "+ws.cell(row=row_num, column=1).value+"...")
+    if cell.value is not None and type(cell.value) is not bool and \
+                    len(cell.value) > 3 and "http" in cell.value:
 
-    for link in soup.findAll('a'):  # ('a', {"class": "item-name"})
-        link_text = link.string
-        if link_text is not None and \
-                        "Diversity".lower() in link_text.lower() and "Inclusion".lower() in link_text.lower():
-            href = link.get("href")
-            print(link_text, ':', href)
-
-    # Check if "Diversity and Inclusion" is under a tab
-    all_li_tags = soup.findAll("li")
-    all_li_string = soup.get_text("li")
-    all_li_string = all_li_string.replace("li", "")
-    print(all_li_string)
-        #print((li_tag.string))
-        # all_li_string += li_tag.string
+        url = cell.value
+        result = diversity_inclusion_search(url)
 
 
-    # Check if "search" is in tag attributes
-    all_tags = soup.findAll(True)
-    #print('\n'.join([tag.name for tag in all_tags]))
-    all_tags_string = ''
-    for tag in all_tags:
-        tag_attrs_value = list(tag.attrs.values())
-        for value in tag_attrs_value:
-            ele_type = type(value)
-            while ele_type is not str:
-                value = ''.join(value)
-                ele_type = type(value)
-            all_tags_string += value
-    print("search" in all_tags_string.lower())
+        has_DI_index = 'C'+str(row_num)
+        has_search_index = 'E'+str(row_num)
+        if result['has_DI']:
+            ws[has_DI_index] = result['has_DI']*1
+        if result['has_search']:
+            ws[has_search_index] = result['has_search']*1
 
-def read_url_database(database_file):
-    pass
-web_spider("http://www.unitedway.org/")
+        url_list.append(cell.value)
+        # url_list = ws["B2":"B1190"].value
+    row_num += 1
+wb.save("websites  audit.xlsx")
+
+#print('\n'.join(url_list[:100]))
+
+
+
+
+
+"""
+print(ws.cell(row=1, column=1).value)
+print(wb.get_sheet_names())
+
+import datetime
+
+wb = Workbook()
+ws = wb.active
+ws["A1"] = 16
+ws.append([11, 2, 3])
+ws["A3"] = datetime.datetime.now()
+print(ws.cell(row=2, column=2).value)
+wb.save("excel_example.xlsx")
+"""
