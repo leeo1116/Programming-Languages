@@ -1,4 +1,3 @@
-Python documents: Tutorials 
-Timesheet mailer 
-
+Python documents: Tutorials.
+Timesheet mailer.
 Sawadika
