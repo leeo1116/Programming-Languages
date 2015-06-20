@@ -1,4 +1,6 @@
 # PyCharm
-Python documents: Tutorials\n
-Timesheet mailer\n
-Sawadika\n
+Python documents: Tutorials
+
+Timesheet mailer
+
+Sawadika
