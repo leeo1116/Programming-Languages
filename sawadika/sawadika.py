@@ -1,5 +1,5 @@
 __author__ = 'liangl2'
-# https://openpyxl.readthedocs.org/en/latest/tutorial.html#loading-from-a-file
+
 from openpyxl import Workbook
 from openpyxl import load_workbook
 from hxg import diversity_inclusion_search
