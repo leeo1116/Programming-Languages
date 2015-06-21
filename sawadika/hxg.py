@@ -3,7 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 
 def diversity_inclusion_search(url):
-    source_code = requests.get(url)
+    try:
+        source_code = requests.get(url)
+    except:
+        return {'has_DI': False, 'DI_url': 'Cannot Access Website', 'has_search': False}
     plain_txt = source_code.text
     soup = BeautifulSoup(plain_txt)
     has_DI = False
