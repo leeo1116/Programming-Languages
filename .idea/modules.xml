@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyCharm.iml" filepath="$PROJECT_DIR$/.idea/PyCharm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/paramiko/.idea/paramiko.iml" filepath="$PROJECT_DIR$/paramiko/.idea/paramiko.iml" />
     </modules>
   </component>
 </project>
