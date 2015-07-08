@@ -23,9 +23,6 @@ class Solution2:
                 return dict[target-num]+1, index+1
             index += 1
 
-
-
-
 s2 = Solution2()
 index1, index2 = s2.two_sum([3, 2, 4], 6)
 print(index1, index2)
