@@ -4,7 +4,6 @@ class Solution:
     # @param {integer[]} nums2
     # @return {float}
     def median_of_two_sorted_array(self, nums1, nums2):
-
         if len(nums1) == 1 and nums1[0] > self.sorted_array_median(nums2):
             m, index = self.sorted_array_median(nums2)
             return self.sorted_array_median(nums2)
