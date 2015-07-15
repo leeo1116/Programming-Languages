@@ -12,15 +12,11 @@ class Solution:
     def min_binary_tree_depth(self, root):
         if root is None:
             return 0
-        while root:
-            print(root.val)
-            left_depth = 1+self.min_binary_tree_depth(root.left)
-            right_depth = 1+self.min_binary_tree_depth(root.right)
-            return left_depth
-        if left_depth < right_depth:
-            return left_depth
-        else:
-            return right_depth
+        if root.left is None:
+            return self.min_binary_tree_depth(root.right)+1
+        if root.right is None:
+            return self.min_binary_tree_depth(root.left)+1
+        return min(self.min_binary_tree_depth(root.left), self.min_binary_tree_depth(root.right))+1
 
 root = TreeNode(2)
 root.left = TreeNode(1)
@@ -30,7 +26,6 @@ root.right.left = TreeNode(4)
 root.right.right = TreeNode(6)
 root.right.right.right = TreeNode(7)
 
-# print(root.right.left.val)
 s = Solution()
 min_depth = s.min_binary_tree_depth(root)
 print(min_depth)
