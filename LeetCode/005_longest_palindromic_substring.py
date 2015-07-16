@@ -18,7 +18,5 @@ class Solution:
         return s[(index-max_p)//2:(index+max_p)//2]
 
 s = Solution()
-p = s.longest_palindrome("afdabcdeeafadafaeedcbaelhssf")
+p = s.longest_palindrome("gabfbed")
 print(p)
-
-
