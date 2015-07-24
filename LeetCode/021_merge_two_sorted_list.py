@@ -10,27 +10,34 @@ class Solution:
     # @param {ListNode} l2
     # @return {ListNode}
     def mergeTwoLists(self, l1, l2):
+        if not l1 and l2:
+            return l2
+        elif not l2 and l1:
+            return l1
+        elif not l1 and not l2:
+            return None
         l = l1 if l1.val < l2.val else l2
         while l1 and l2:
-            l1, l2 = p1, p2
-            while l1.val < l2.val and l1:
-                l1 = l1.next
-            p1 = l1.next
-            l1.next = l2
-
+            if l1.val < l2.val:
+                while l1 and l1.val < l2.val:
+                    last_l1 = l1
+                    l1 = l1.next
+                last_l1.next = l2
             else:
-                l2.next = l1
-                l2 = p2
+                while l2 and l2.val <= l1.val:
+                    last_l2 = l2
+                    l2 = l2.next
+                last_l2.next = l1
         return l
 
-headA = ListNode(2)
-headA.next = ListNode(4)
-headA.next.next = ListNode(5)
+headA = ListNode(1)
+# headA.next = ListNode(4)
+# headA.next.next = ListNode(5)
 # headA.next.next.next = ListNode(9)
 
 headB = ListNode(1)
-headB.next = ListNode(3)
-headB.next.next = ListNode(7)
+# headB.next = ListNode(3)
+# headB.next.next = ListNode(7)
 # headB.next.next.next = ListNode(8)
 
 
