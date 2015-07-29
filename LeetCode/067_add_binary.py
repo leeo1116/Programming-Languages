@@ -20,7 +20,7 @@ class Solution:
             else:
                 if (int(d1)+int(d2)+carry_in[k])//2 == 1:
                     digit_sum = [1]+digit_sum
-                    return digit_sum
+                return ''.join(str(x) for x in digit_sum)
 s = Solution()
 print(s.addBinary('11', '111'))
 
