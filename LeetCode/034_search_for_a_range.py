@@ -4,25 +4,31 @@ class Solution:
     # @param {integer} target
     # @return {integer[]}
     def searchRange(self, nums, target):
-        target_index = []
-        index = self.binary_search(nums, target, 0, len(nums))
-        while index != -1:
-            target_index.append(index)
-            nums[index] = nums[index]-0.1
-            index = self.binary_search(nums, target, 0, len(nums))
-        return target_index if target_index != [] else [-1, -1]
-
-    def binary_search(self, nums, target, start, stop):
-        if stop <= start:
-            return -1
-        m = (start+stop)//2
-        if target > nums[m]:
-            return self.binary_search(nums, target, m+1, stop)
-        elif target < nums[m]:
-            return self.binary_search(nums, target, start, m)
+        low, high = 0, len(nums)-1
+        index = [-1, -1]
+        # search for left index
+        while low < high:
+            mid = (low+high)//2
+            if nums[mid] < target:
+                low = mid+1
+            else:
+                high = mid
+        if nums[low] != target:
+            return index
         else:
-            return m
+            index[0] = low
+
+        # search for right index
+        high = len(nums)-1
+        while low < high:
+            mid = (low+high)//2+1
+            if nums[mid] > target:
+                high = mid-1
+            else:
+                low = mid
+        index[1] = high
+        return index
 
 
 s = Solution()
-print(s.searchRange([1], 1))
+print(s.searchRange([1, 1, 2, 4, 6, 8, 8, 10], 1))
