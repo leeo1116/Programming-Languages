@@ -562,12 +562,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00010" summary="python official documentation">
-      <created>1434517941786</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1434517941786</updated>
-    </task>
     <task id="LOCAL-00011" summary="python official documentation">
       <created>1434519477969</created>
       <option name="number" value="00011" />
@@ -856,7 +850,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438839843508</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="86">
+      <created>1438839847585</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1438839847589</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
