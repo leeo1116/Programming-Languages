@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/056_merge_intervals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/057_insert_interval.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/065_valid_number.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/068_text_justification.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email_generator/dist/email_preview.txt" afterPath="$PROJECT_DIR$/email_generator/dist/email_preview.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/leetcode stat.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyCharm.iws" />
@@ -41,22 +37,9 @@
       <file leaf-file-name="068_text_justification.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/068_text_justification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04208417">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.7995992">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="025_reverse_nodes_in_k_group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/025_reverse_nodes_in_k_group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <marker date="1440198732312" expanded="true" signature="166:292" placeholder="..." />
-                <marker date="1440198732312" expanded="true" signature="283:292" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/021_merge_two_sorted_list.py" />
-        <option value="$PROJECT_DIR$/LeetCode/058_length_of_last_word.py" />
         <option value="$PROJECT_DIR$/LeetCode/026_remove_duplicates_from_sorted_array.py" />
         <option value="$PROJECT_DIR$/LeetCode/027_remove_element.py" />
         <option value="$PROJECT_DIR$/LeetCode/028_implement_strstr().py" />
@@ -203,6 +184,8 @@
         <option value="$PROJECT_DIR$/LeetCode/057_insert_interval.py" />
         <option value="$PROJECT_DIR$/LeetCode/065_valid_number.py" />
         <option value="$PROJECT_DIR$/LeetCode/068_text_justification.py" />
+        <option value="$PROJECT_DIR$/LeetCode/leetcode stat" />
+        <option value="$PROJECT_DIR$/LeetCode/leetcode stat.txt" />
       </list>
     </option>
   </component>
@@ -702,12 +685,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00013" summary="python official documentation">
-      <created>1434524893906</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1434524893906</updated>
-    </task>
     <task id="LOCAL-00014" summary="python official documentation">
       <created>1434525217142</created>
       <option name="number" value="00014" />
@@ -996,7 +973,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440462660269</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="08/25">
+      <created>1440549741460</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1440549741460</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1037,7 +1020,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="004_median_of_two_sorted_array" />
     <MESSAGE value="005_longest_palindromic_substring" />
     <MESSAGE value="007_reverse_integer" />
     <MESSAGE value="008_string_to_integer" />
@@ -1062,7 +1044,8 @@
     <MESSAGE value="08/18" />
     <MESSAGE value="08/21" />
     <MESSAGE value="08/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="08/24" />
+    <MESSAGE value="08/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="08/25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1176,14 +1159,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/021_merge_two_sorted_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038251366">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/027_remove_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5355191">
@@ -1476,8 +1451,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <marker date="1440198732312" expanded="true" signature="166:292" placeholder="..." />
-            <marker date="1440198732312" expanded="true" signature="283:292" placeholder="..." />
+            <marker date="1440198732312" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1440198732312" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1554,10 +1529,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/leetcode stat.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/068_text_justification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04208417">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.7995992">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
