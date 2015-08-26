@@ -5,10 +5,21 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        sorted(nums)
-        permutations = [[]]
-        unique_permute(nums, 0, len(nums), permutations)
-        return permutations
+        if not nums:
+            return nums
+        return self.permute(sorted(nums))
 
-    def unique_permute(self, nums, i, j, permutations):
-        if i == j-1:
+    def permute(self, nums):
+        if len(nums) == 1:
+            return [nums]
+        permutation = []
+        pre_num = None
+        for i in range(len(nums)):
+            if nums[i] != pre_num:
+                pre_num = nums[i]
+                for p in self.permute(nums[:i]+nums[i+1:]):
+                    permutation.append([nums[i]]+p)
+        return permutation
+
+s = Solution()
+print(s.permuteUnique([3,3,1,2,3,2,3,1]))
