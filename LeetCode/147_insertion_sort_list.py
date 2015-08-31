@@ -11,12 +11,19 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        h, p = head, head
-        q = h
+        if not head:
+            return head
+        head_dummy = ListNode(0)
+        p = head
+        q = head_dummy
+        p_next = None
         while p:
-            while q:
-                if q.val < p.val:
-                    q_pre = q
-                    q = q.next
-            q_pre.next = p
-            p.next = q
+            p_next = p.next
+            while q.next and q.next.val < p.val:
+                q = q.next
+            p.next = q.next
+            q.next = p
+
+            q = head_dummy
+            p = p_next
+        return head_dummy.next
