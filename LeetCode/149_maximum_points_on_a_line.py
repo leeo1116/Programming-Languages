@@ -10,30 +10,34 @@ class Solution:
     # @param {Point[]} points
     # @return {integer}
     def maxPoints(self, points):
+        if len(points) < 2:
+            return len(points)
         points_dict = {}
-
-        i = 0
-        while i < len(points):
-            dup_count = 1
+        for i in range(len(points)):
+            dup_points = 0
             for j in range(i+1, len(points)):
                 a = points[j].y-points[i].y
                 b = points[i].x-points[j].x
                 c = points[j].x*points[i].y-points[i].x*points[j].y
-                points_dict[(a, b, c)] = points_dict.get((a, b, c), 0) + 1
-
-            i += dup_count
-        max_points = max(points_dict.values()) if points_dict else len(points)
+                abc_gcd = gcd(a, gcd(b, c))
+                if abc_gcd:
+                    a, b, c = a/abc_gcd, b/abc_gcd, c/abc_gcd
+                else:
+                    dup_points += 1
+                points_dict[(a, b, c, i)] = points_dict.get((a, b, c, i), 0) + 1
+            for key in points_dict:
+                if key[-1] == i and key[:-1] != (0, 0, 0):
+                    points_dict[key] += dup_points
+        max_points = max(points_dict.values())+1
         return max_points
 
 p0 = Point(0, 0)
-p1 = Point(1, -1)
-p2 = Point(1, 1)
-p3 = Point(1, 3)
-p4 = Point(2, 3)
-p5 = Point(-5, 3)
-p6 = Point(3, 6)
-p7 = Point(2, 4)
+p1 = Point(-1, -1)
+p2 = Point(2, 2)
+p3 = Point(2, 1)
+p4 = Point(0, 1)
+p5 = Point(0, 2)
+p6 = Point(0, 3)
 
 s = Solution()
-print(s.maxPoints([p1, p2, p3]))
-# print(s.maxPoints([p1, p2, p3, p4, p5, p6, p7]))
+print(s.maxPoints([p0, p0, p2, p2]))
