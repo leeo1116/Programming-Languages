@@ -2,6 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/005_longest_palindromic_substring.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/031_next_permutation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/CleanCodeHandbook_v1.0.1.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/Data Structure and Algorithm in C++.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/Introduction to Algorithm.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/LC.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/heaps.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/001_two_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/002_add_two_num.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/003_longest_substring.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/004_median_of_two_sorted_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/005_longest_palindromic_substring.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/006_zigzag_conversion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/007_reverse_integer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/008_string_to_integer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/009_palindrome_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/010_regular_expression_matching.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/011_container_with_most_water.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/012_integer_to_roman.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/013_roman_to_integer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/014_longest_common_prefix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/015_3sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/016_3sum_closest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/017_letter_combinations_of_a_phone_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/018_4sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/019_remove_Nth_node_from_end_of_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/020_valid_parathesis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/021_merge_two_sorted_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/022_generate_parenthesis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/023_merge_K_sorted_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/024_swap_node_in_pairs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/025_reverse_nodes_in_k_group.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/026_remove_duplicates_from_sorted_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/027_remove_element.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/028_implement_strstr().py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/029_divide_two_integers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/030_substring_with_concatenation_of_all_words.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/030_substring_with_contatenation_of_all_words.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/031_next_permutation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/032_longest_valid_parenthesis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/033_search_in_rotated_sorted_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/034_search_for_a_range.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/035_search_insert_position.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/036_valid_sudoku.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/037_sudoku_solver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/038_count_say.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/039_combination_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/040_combination_sum_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/041_first_missing_positive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/042_trapping_raining_water.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/043_multiply_strings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/044_wildcard_matching.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/045_jump_game.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/046_permutations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/047_permutations_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/048_rotate_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/049_anagrams.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/050_pow(x, n).py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/051_N_queens.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/053_maximum_subarray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/054_spriral_matrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/055_jump_game.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/056_merge_intervals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/057_insert_interval.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/058_length_of_last_word.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/059_spiral_matrix_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/060_permutation_sequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/061_rotate_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/062_unique_paths.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/063_unique_paths_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/064_minimum_path_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/065_valid_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/066_plus_one.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/067_add_binary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/068_text_justification.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/069_sqrt(x).py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/070_climbing_stairs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/071_simplify_path.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/072_edit_distance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/073_set_matrix_zeros.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/074_search_a_2D_matrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/075_sort_colors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/076_minimum_window_substring.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/077_combinations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/078_subsets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/079_word_search.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/080_remove_duplicates_from_sorted_array_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/081_search_in_rotated_sorted_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/081_search_in_rotated_sorted_array_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/082_remove_duplicated_from_sorted_list_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/083_remove_duplicates_from_sorted_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/086_partition_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/088_merge_sorted_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/089_gray_code.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/090_subsets_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/091_decode_ways.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/092_reverse_linked_list_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/093_restore_IP_addresses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/094_binary_tree_inorder_traversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/095_unique_binary_search_tree_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/096_unique_binary_search_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/098_valid_binary_search_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/100_same_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/101_symmetric_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/102_binary_tree_level_order_traversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/104_maximum_depth_of_binary_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/107_binary_tree_level_order_traversal_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/110_balanced_binary_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/111_min_binary_tree_depth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/112_path_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/118_pascal_triangle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/119_pascal_triangle_II.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/120_triangle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/125_valid_palindrome.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/133_clone_graph.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/146_LRU_cache.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/147_insertion_sort_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/148_sort_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/149_maximum_points_on_a_line.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/150_evaluate_reverse_polish_notation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/160_intersection_of_two_linked_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/232_implement_queue_using_stack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/234_palindrome_linked_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/235_lowest_common_ancestor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/237_delete_list_node.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/260_single_num_III.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode stat.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyCharm.iws" />
@@ -600,12 +727,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00023" summary="sawadika version1">
-      <created>1434869338139</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1434869338139</updated>
-    </task>
     <task id="LOCAL-00024" summary="sawadika version1">
       <created>1435470569599</created>
       <option name="number" value="00024" />
@@ -894,7 +1015,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441078777902</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="08/31">
+      <created>1441078833635</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1441078833635</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
