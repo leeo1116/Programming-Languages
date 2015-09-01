@@ -5,301 +5,110 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_bz2.pyd" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_ctypes.pyd" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_decimal.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_hashlib.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_lzma.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_socket.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_ssl.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_win32sysloader.pyd" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/distributing.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/email_generator_main.exe" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-cporting.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-descriptor.pdf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-ipaddress.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-sorting.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-webservers.pdf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/installing.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/library.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/Microsoft.VC90.CRT/msvcm90.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/Microsoft.VC90.CRT/msvcm90.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/library.pdf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/Microsoft.VC90.CRT/msvcp90.dll" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/Microsoft.VC90.CRT/msvcp90.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/Microsoft.VC90.CRT/msvcr90.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/Microsoft.VC90.CRT/msvcr90.dll" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/pyexpat.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/python34.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/pythoncom34.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/pywintypes34.dll" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/select.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/timesheet_mailer.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/unicodedata.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/win32api.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/win32ui.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/000.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/001.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/002.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/003.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/010.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/011.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/012.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/013.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/020.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/021.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/022.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/023.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/030.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/031.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/032.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/033.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/100.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/101.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/102.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/103.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/110.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/111.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/112.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/113.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/120.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/121.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/122.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/123.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/130.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/131.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/132.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/133.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/200.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/201.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/202.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/203.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/210.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/211.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/212.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/213.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/220.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/221.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/222.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/223.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/230.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/231.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/232.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/233.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/300.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/301.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/302.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/303.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/310.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/311.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/312.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/313.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/320.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/321.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/322.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/323.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/330.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/331.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/332.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/333.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/400.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/401.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/402.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/403.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/410.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/411.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/412.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/413.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/420.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/421.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/422.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/423.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/430.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/431.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/432.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/433.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/500.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/501.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/502.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/503.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/510.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/511.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/512.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/513.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/520.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/521.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/522.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/523.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/530.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/531.ebert" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/532.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/533.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/email_preview.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/email_preview.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/encryption.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/outlook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/sample.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/timesheet_mailer.py" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\faq.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-logging-cookbook.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-clinic.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-functional.pdf" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-pyporting.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-urllib2.pdf" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\whatsnew.pdf" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\Microsoft.VC90.CRT\msvcm90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\Microsoft.VC90.CRT\msvcp90.dll" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\Microsoft.VC90.CRT\msvcr90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\Microsoft.VC90.CRT\msvcm90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\Microsoft.VC90.CRT\msvcp90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\Microsoft.VC90.CRT\msvcr90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_bz2.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_ctypes.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_decimal.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_hashlib.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_lzma.pyd" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_socket.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_ssl.pyd" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_win32sysloader.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\email_generator_main.exe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\email_preview.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\library.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\pyexpat.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\python34.dll" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\pythoncom34.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\pywintypes34.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\select.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\timesheet_mailer.exe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\unicodedata.pyd" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\win32api.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\win32ui.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\email_preview.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\outlook.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\setup.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\timesheet_mailer.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\000.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\011.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\012.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\013.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\020.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\021.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\032.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\033.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\100.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\102.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\103.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\122.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\123.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\130.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\131.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\201.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\202.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\203.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\210.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\213.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\230.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\232.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\233.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\300.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\311.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\312.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\313.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\320.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\321.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\322.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\332.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\333.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\400.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\401.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\402.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\403.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\410.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\420.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\422.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\423.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\430.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\431.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\500.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\501.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\502.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\510.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\511.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\512.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\513.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\520.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\521.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\532.ebert" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\simba_data\533.ebert" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\c-api.pdf" afterPath="$PROJECT_DIR$/docs/c-api.pdf" />
-      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-clinic.pdf" afterPath="$PROJECT_DIR$/docs/howto-clinic.pdf" />
-      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-functional.pdf" afterPath="$PROJECT_DIR$/docs/howto-functional.pdf" />
-      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-sorting.pdf" afterPath="$PROJECT_DIR$/docs/howto-sorting.pdf" />
-      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-webservers.pdf" afterPath="$PROJECT_DIR$/docs/howto-webservers.pdf" />
-      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\library.pdf" afterPath="$PROJECT_DIR$/docs/library.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/__init__.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pkg_resources/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/_base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/_base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/importlib/_bootstrap.py" afterPath="$PROJECT_DIR$/django/venv/Lib/importlib/_bootstrap.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/importlib/abc.py" afterPath="$PROJECT_DIR$/django/venv/Lib/importlib/abc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/actions.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/actions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/templatetags/admin_list.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/templatetags/admin_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/aggregates.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/aggregates.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/utils/appdirs.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/utils/appdirs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/migrations/operations/base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/migrations/operations/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/base64.py" afterPath="$PROJECT_DIR$/django/venv/Lib/base64.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/bdist_egg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/bdist_wheel.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/bdist_wheel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/build_py.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/build_py.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/cache.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/cache.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/decorators/cache.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/decorators/cache.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/cached_db.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/cached_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/test/client.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/test/client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/codecs.py" afterPath="$PROJECT_DIR$/django/venv/Lib/codecs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/middleware/common.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/middleware/common.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/compiler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/messages/storage/cookie.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/messages/storage/cookie.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/datasource.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/datasource.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/datastructures.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/datastructures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/generic/dates.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/generic/dates.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/db.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/db.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/debug.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/decorator.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/decorator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/driver.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/driver.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/easy_install.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/encoding.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/encoding.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/exceptions.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/exceptions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/forms/fields.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/forms/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/flush.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/flush.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/conf/global_settings.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/conf/global_settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/hashers.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/hashers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/heapq.py" afterPath="$PROJECT_DIR$/django/venv/Lib/heapq.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/helpers.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/hmac.py" afterPath="$PROJECT_DIR$/django/venv/Lib/hmac.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/html_parser.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/html_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/files/images.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/files/images.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/inputstream.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/inputstream.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/install.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/install.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/introspection.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/introspection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/introspection.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/introspection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/json.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/json.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/filters/lint.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/loaddata.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/loaddata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/migrations/loader.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/migrations/loader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/cache/backends/locmem.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/cache/backends/locmem.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/log.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/log.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" />
@@ -320,20 +129,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/http/response.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/http/response.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/sanitizer.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/sanitizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/shutil.py" afterPath="$PROJECT_DIR$/django/venv/Lib/shutil.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/signed_cookies.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/signed_cookies.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/sql.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/sql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/sqlmigrate.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/sqlmigrate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/vcs/subversion.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/vcs/subversion.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/tarfile.py" afterPath="$PROJECT_DIR$/django/venv/Lib/tarfile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/test/test_install.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/test/test_install.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/test/testcases.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/test/testcases.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/testserver.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/testserver.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/transaction.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/transaction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/tree.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/upload_docs.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/upload_docs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/encodings/utf_8_sig.py" afterPath="$PROJECT_DIR$/django/venv/Lib/encodings/utf_8_sig.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/utils.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admindocs/views.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admindocs/views.py" />
@@ -514,6 +318,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_review" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
