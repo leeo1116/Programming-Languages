@@ -468,12 +468,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00029" summary="LeetCode: two_sum">
-      <created>1436342238842</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1436342238843</updated>
-    </task>
     <task id="LOCAL-00030" summary="LeetCode: two_sum">
       <created>1436342255510</created>
       <option name="number" value="00030" />
@@ -762,7 +756,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441149944041</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="09/01">
+      <created>1441150015860</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1441150015860</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="ToolWindowManager">
