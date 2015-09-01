@@ -97,7 +97,7 @@ def _path_isdir(path):
 
 
 def _write_atomic(path, data, mode=0o666):
-    """Best-effort function to write data to a path atomically.
+    """Best-effort function to write simba_data to a path atomically.
     Be prepared to handle a FileExistsError if concurrent writing of the
     temporary file is attempted."""
     # id() is used to generate a pseudo-random filename.
@@ -105,7 +105,7 @@ def _write_atomic(path, data, mode=0o666):
     fd = _os.open(path_tmp,
                   _os.O_EXCL | _os.O_CREAT | _os.O_WRONLY, mode & 0o666)
     try:
-        # We first write data to a temporary file, and then use os.replace() to
+        # We first write simba_data to a temporary file, and then use os.replace() to
         # perform an atomic rename.
         with _io.FileIO(fd, 'wb') as file:
             file.write(data)
@@ -603,7 +603,7 @@ def _validate_bytecode_header(data, source_stats=None, name=None, path=None):
     All other arguments are used to enhance error reporting.
 
     ImportError is raised when the magic number is incorrect or the bytecode is
-    found to be stale. EOFError is raised when the data is found to be
+    found to be stale. EOFError is raised when the simba_data is found to be
     truncated.
 
     """
@@ -754,7 +754,7 @@ class ModuleSpec:
     """The specification for a module, used for loading.
 
     A module's spec is the source for information about the module.  For
-    data associated with the module, including source, use the spec's
+    simba_data associated with the module, including source, use the spec's
     loader.
 
     `name` is the absolute name of the module.  `loader` is the loader
@@ -1497,7 +1497,7 @@ class SourceLoader(_LoaderBasics):
         return {'mtime': self.path_mtime(path)}
 
     def _cache_bytecode(self, source_path, cache_path, data):
-        """Optional method which writes data (bytes) to a file path (a str).
+        """Optional method which writes simba_data (bytes) to a file path (a str).
 
         Implementing this method allows for the writing of bytecode files.
 
@@ -1507,7 +1507,7 @@ class SourceLoader(_LoaderBasics):
         return self.set_data(cache_path, data)
 
     def set_data(self, path, data):
-        """Optional method which writes data (bytes) to a file path (a str).
+        """Optional method which writes simba_data (bytes) to a file path (a str).
 
         Implementing this method allows for the writing of bytecode files.
         """
@@ -1526,7 +1526,7 @@ class SourceLoader(_LoaderBasics):
     def source_to_code(self, data, path, *, _optimize=-1):
         """Return the code object compiled from source.
 
-        The 'data' argument can be any object type that compile() supports.
+        The 'simba_data' argument can be any object type that compile() supports.
         """
         return _call_with_frames_removed(compile, data, path, 'exec',
                                         dont_inherit=True, optimize=_optimize)
@@ -1619,7 +1619,7 @@ class FileLoader:
         return self.path
 
     def get_data(self, path):
-        """Return the data from path as raw bytes."""
+        """Return the simba_data from path as raw bytes."""
         with _io.FileIO(path, 'r') as file:
             return file.read()
 
@@ -1639,7 +1639,7 @@ class SourceFileLoader(FileLoader, SourceLoader):
         return self.set_data(bytecode_path, data, _mode=mode)
 
     def set_data(self, path, data, *, _mode=0o666):
-        """Write bytes data to a file."""
+        """Write bytes simba_data to a file."""
         parent, filename = _path_split(path)
         path_parts = []
         # Figure out what directories are missing.
@@ -1656,7 +1656,7 @@ class SourceFileLoader(FileLoader, SourceLoader):
                 continue
             except OSError as exc:
                 # Could be a permission error, read-only filesystem: just forget
-                # about writing the data.
+                # about writing the simba_data.
                 _verbose_message('could not create {!r}: {!r}', parent, exc)
                 return
         try:
