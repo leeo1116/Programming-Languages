@@ -1,5 +1,1 @@
-Python official documents
-
-Timesheet mailer
-
-Sawadika
+Projects in Python
