@@ -13,25 +13,28 @@ class Solution(object):
         """
         if not (head and head.next):
             return head
-        p, p1, p2 = head, head, head
-        while p2 != None and p2.next != None:
-            p = p1
-            p1 = p1.next
-            p2 = p2.next.next
-        p.next = None
-        h1 = self.sortList(head)
-        h2 = self.sortList(p1)
-        return self.merge(h1, h2)
+        # Divide list into two parts
+        p1, p2 = head.next, head
+        while p1 and p1.next:
+            p1 = p1.next.next
+            p2 = p2.next
+        h2 = p2.next
+        p2.next = None
+        list1 = self.sortList(head)
+        list2 = self.sortList(h2)
+        return self.merge(list1, list2)
 
     def merge(self, h1, h2):
-        if not h1:
-            return h2
-        if not h2:
-            return h1
-        if h1.val < h2.val:
-            h1.next = self.merge(h1.next, h2)
-            return h1
-        else:
-            h2.next = self.merge(h1, h2.next)
-            return h2
+        h = ListNode(0)
+        head = h
+        while h1 and h2:
+            if h1.val < h2.val:
+                h.next = h1
+                h1 = h1.next
+            else:
+                h.next = h2
+                h2 = h2.next
+            h = h.next
 
+        h.next = h1 if h1 else h2
+        return head.next
