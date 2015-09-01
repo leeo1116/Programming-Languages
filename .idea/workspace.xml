@@ -164,20 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -482,12 +468,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00031" summary="LeetCode: two_sum">
-      <created>1436342280695</created>
-      <option name="number" value="00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1436342280695</updated>
-    </task>
     <task id="LOCAL-00032" summary="New Github VCS">
       <created>1436690912553</created>
       <option name="number" value="00032" />
@@ -776,7 +756,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441150071627</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="09/01">
+      <created>1441150153718</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1441150153719</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="ToolWindowManager">
