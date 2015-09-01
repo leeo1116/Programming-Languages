@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\mind_stamp\mind_stamp.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\vim.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\FFE_eye_SSH\SSH_connect.py" afterPath="$PROJECT_DIR$/intern/SSH_connect.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyCharm.iws" />
@@ -23,28 +26,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="104_maximum_depth_of_binary_tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/104_maximum_depth_of_binary_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="107_binary_tree_level_order_traversal_II.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/107_binary_tree_level_order_traversal_II.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="36" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="118_pascal_triangle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/118_pascal_triangle.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/118_pascal_triangle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
@@ -54,7 +37,7 @@
         </entry>
       </file>
       <file leaf-file-name="119_pascal_triangle_II.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/119_pascal_triangle_II.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/119_pascal_triangle_II.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -64,7 +47,7 @@
         </entry>
       </file>
       <file leaf-file-name="125_valid_palindrome.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/125_valid_palindrome.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/125_valid_palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
@@ -74,7 +57,7 @@
         </entry>
       </file>
       <file leaf-file-name="110_balanced_binary_tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/110_balanced_binary_tree.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/110_balanced_binary_tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
@@ -84,7 +67,7 @@
         </entry>
       </file>
       <file leaf-file-name="120_triangle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/120_triangle.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/120_triangle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -94,20 +77,27 @@
         </entry>
       </file>
       <file leaf-file-name="146_LRU_cache.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/146_LRU_cache.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/146_LRU_cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3507307">
+            <state vertical-scroll-proportion="0.37168142">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="102_binary_tree_level_order_traversal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/102_binary_tree_level_order_traversal.py">
+      <file leaf-file-name="vim.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temp/vim.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encryption.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temp/encryption.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="47" selection-end-column="25" />
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -305,10 +295,11 @@
       <recent name="F:\GitHub\PyCharm\sawadika" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\temp" />
+      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern" />
+      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\Temp" />
       <recent name="F:\GitHub\PyCharm" />
       <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm" />
-      <recent name="F:\GitHub\PyCharm\mind_stamp" />
-      <recent name="F:\GitHub\PyCharm\python_tutorial" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -678,12 +669,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00020" summary="Add URL list">
-      <created>1434699880839</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1434699880839</updated>
-    </task>
     <task id="LOCAL-00021" summary="sawadika version0">
       <created>1434787110445</created>
       <option name="number" value="00021" />
@@ -972,20 +957,26 @@
       <option name="project" value="LOCAL" />
       <updated>1441068362643</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="08/31">
+      <created>1441068402986</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1441068402986</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22095238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26417705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29183957" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29183957" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1054,87 +1045,87 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/018_4sum.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/018_4sum.py</url>
           <line>43</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/021_merge_two_sorted_list.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/021_merge_two_sorted_list.py</url>
           <line>49</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/036_valid_sudoku.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/036_valid_sudoku.py</url>
           <line>25</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/066_plus_one.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/066_plus_one.py</url>
           <line>18</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/038_count_say.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/038_count_say.py</url>
           <line>32</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/024_swap_node_in_pairs.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/024_swap_node_in_pairs.py</url>
           <line>28</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/029_divide_two_integers.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/029_divide_two_integers.py</url>
           <line>21</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/059_spiral_matrix_II.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/059_spiral_matrix_II.py</url>
           <line>40</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/061_rotate_list.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/061_rotate_list.py</url>
           <line>37</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/075_sort_colors.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/075_sort_colors.py</url>
           <line>20</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/077_combinations.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/077_combinations.py</url>
           <line>20</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/080_remove_duplicates_from_sorted_array_II.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/080_remove_duplicates_from_sorted_array_II.py</url>
           <line>24</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/081_search_in_rotated_sorted_array.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/081_search_in_rotated_sorted_array.py</url>
           <line>30</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/033_search_in_rotated_sorted_array.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/033_search_in_rotated_sorted_array.py</url>
           <line>32</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/030_substring_with_contatenation_of_all_words.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/030_substring_with_contatenation_of_all_words.py</url>
           <line>47</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/150_evaluate_reverse_polish_notation.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/150_evaluate_reverse_polish_notation.py</url>
           <line>31</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/119_pascal_triangle_II.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/119_pascal_triangle_II.py</url>
           <line>18</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
@@ -1162,36 +1153,14 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/054_spriral_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/059_spiral_matrix_II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/060_permutation_sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/092_reverse_linked_list_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/092_reverse_linked_list_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="47" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/061_rotate_list.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/061_rotate_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="27" selection-end-column="19" />
@@ -1199,49 +1168,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/062_unique_paths.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/062_unique_paths.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/063_unique_paths_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/063_unique_paths_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/069_sqrt(x).py">
+    <entry file="file://$PROJECT_DIR$/leetcode/069_sqrt(x).py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/071_simplify_path.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/071_simplify_path.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/040_combination_sum_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/040_combination_sum_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/039_combination_sum.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/039_combination_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/075_sort_colors.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/075_sort_colors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1249,7 +1218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/077_combinations.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/077_combinations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -1257,28 +1226,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/090_subsets_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/090_subsets_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/078_subsets.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/078_subsets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/079_word_search.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/079_word_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/080_remove_duplicates_from_sorted_array_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/080_remove_duplicates_from_sorted_array_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="21" selection-end-column="17" />
@@ -1286,7 +1255,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/081_search_in_rotated_sorted_array.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/081_search_in_rotated_sorted_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -1294,70 +1263,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/234_palindrome_linked_list.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/234_palindrome_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/094_binary_tree_inorder_traversal.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/094_binary_tree_inorder_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/095_unique_binary_search_tree_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/095_unique_binary_search_tree_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/096_unique_binary_search_tree.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/096_unique_binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/098_valid_binary_search_tree.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/098_valid_binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/112_path_sum.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/112_path_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/111_min_binary_tree_depth.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/111_min_binary_tree_depth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/100_same_tree.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/100_same_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/025_reverse_nodes_in_k_group.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/025_reverse_nodes_in_k_group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/030_substring_with_contatenation_of_all_words.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/030_substring_with_contatenation_of_all_words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
@@ -1365,63 +1334,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/047_permutations_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/047_permutations_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6309013">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/leetcode stat.txt">
+    <entry file="file://$PROJECT_DIR$/leetcode/leetcode stat.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/065_valid_number.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/065_valid_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/057_insert_interval.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/057_insert_interval.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8199566">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/056_merge_intervals.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/056_merge_intervals.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6355748">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/032_longest_valid_parenthesis.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/032_longest_valid_parenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27114967">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/260_single_num_III.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/260_single_num_III.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68112797">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/068_text_justification.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/068_text_justification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31019524">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/033_search_in_rotated_sorted_array.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/033_search_in_rotated_sorted_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72017354">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -1429,7 +1398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/150_evaluate_reverse_polish_notation.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/150_evaluate_reverse_polish_notation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
@@ -1437,21 +1406,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/076_minimum_window_substring.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/076_minimum_window_substring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.407767">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/148_sort_list.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/148_sort_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28016645">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/072_edit_distance.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/072_edit_distance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
@@ -1459,7 +1428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/104_maximum_depth_of_binary_tree.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/104_maximum_depth_of_binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
@@ -1467,7 +1436,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/102_binary_tree_level_order_traversal.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/102_binary_tree_level_order_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="47" selection-end-column="25" />
@@ -1475,7 +1444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/107_binary_tree_level_order_traversal_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/107_binary_tree_level_order_traversal_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="36" selection-end-column="21" />
@@ -1483,7 +1452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/118_pascal_triangle.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/118_pascal_triangle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
@@ -1491,7 +1460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/119_pascal_triangle_II.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/119_pascal_triangle_II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -1507,7 +1476,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/125_valid_palindrome.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/125_valid_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
@@ -1515,7 +1484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/110_balanced_binary_tree.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/110_balanced_binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
@@ -1523,7 +1492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/120_triangle.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/120_triangle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -1531,9 +1500,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/146_LRU_cache.py">
+    <entry file="file://$PROJECT_DIR$/temp/encryption.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3507307">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/vim.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intern/SSH_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4181416">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/146_LRU_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37168142">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
