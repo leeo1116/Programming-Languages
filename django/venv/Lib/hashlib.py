@@ -4,9 +4,9 @@
 
 __doc__ = """hashlib module - A common interface to many hash functions.
 
-new(name, data=b'') - returns a new hash object implementing the
+new(name, simba_data=b'') - returns a new hash object implementing the
                       given hash function; initializing the hash
-                      using the given binary data.
+                      using the given binary simba_data.
 
 Named constructor functions are also available, these are faster
 than using new(name):
@@ -108,15 +108,15 @@ def __get_openssl_constructor(name):
 
 
 def __py_new(name, data=b''):
-    """new(name, data=b'') - Return a new hashing object using the named algorithm;
-    optionally initialized with data (which must be bytes).
+    """new(name, simba_data=b'') - Return a new hashing object using the named algorithm;
+    optionally initialized with simba_data (which must be bytes).
     """
     return __get_builtin_constructor(name)(data)
 
 
 def __hash_new(name, data=b''):
-    """new(name, data=b'') - Return a new hashing object using the named algorithm;
-    optionally initialized with data (which must be bytes).
+    """new(name, simba_data=b'') - Return a new hashing object using the named algorithm;
+    optionally initialized with simba_data (which must be bytes).
     """
     try:
         return _hashlib.new(name, data)

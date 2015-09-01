@@ -309,7 +309,7 @@ print(iter(rev))
 for char in rev:
     print(char)
 
-# Generator: tool for creating iterator, use yield to return data
+# Generator: tool for creating iterator, use yield to return simba_data
 def reverse(data):
     for index in range(len(data)-1,-1, -1):
         yield   data[index]

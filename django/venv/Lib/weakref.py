@@ -303,7 +303,7 @@ class WeakKeyDictionary(collections.MutableMapping):
 
     Entries in the dictionary will be discarded when there is no
     longer a strong reference to the key. This can be used to
-    associate additional data with an object owned by other parts of
+    associate additional simba_data with an object owned by other parts of
     an application without adding attributes to those objects. This
     can be especially useful with objects that override attribute
     accesses.

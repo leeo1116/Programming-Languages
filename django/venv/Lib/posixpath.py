@@ -84,7 +84,7 @@ def join(a, *p):
                 path += sep + b
     except TypeError:
         if all(isinstance(s, (str, bytes)) for s in (a,) + p):
-            # Must have a mixture of text and binary data
+            # Must have a mixture of text and binary simba_data
             raise TypeError("Can't mix strings and bytes in path "
                             "components") from None
         raise
