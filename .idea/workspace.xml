@@ -2,152 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_bz2.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_ctypes.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/_decimal.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/distributing.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-cporting.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-ipaddress.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-sorting.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/howto-webservers.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/installing.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/library.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/Microsoft.VC90.CRT/msvcp90.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/Microsoft.VC90.CRT/msvcp90.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/pyexpat.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/select.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/010.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/011.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/020.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/031.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/033.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/120.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/121.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/122.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/200.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/202.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/203.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/222.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/230.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/232.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/233.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/310.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/311.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/312.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/313.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/320.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/331.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/332.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/333.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/401.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/402.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/421.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/422.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/430.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/500.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/502.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/503.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/512.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/531.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/avago_simba/simba_data/532.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/email_preview.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/email_generator/dist/email_preview.txt" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-clinic.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-functional.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\howto-pyporting.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\whatsnew.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\Microsoft.VC90.CRT\msvcr90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\Microsoft.VC90.CRT\msvcm90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_socket.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\_win32sysloader.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\pythoncom34.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\email_generator\dist\win32api.pyd" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\docs-pdf\c-api.pdf" afterPath="$PROJECT_DIR$/docs/c-api.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/__init__.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pkg_resources/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/importlib/abc.py" afterPath="$PROJECT_DIR$/django/venv/Lib/importlib/abc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/actions.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/actions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/templatetags/admin_list.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/templatetags/admin_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/utils/appdirs.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/utils/appdirs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/migrations/operations/base.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/migrations/operations/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/base64.py" afterPath="$PROJECT_DIR$/django/venv/Lib/base64.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/bdist_egg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/build_py.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/build_py.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/cache.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/cache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/decorators/cache.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/decorators/cache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/cached_db.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/cached_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/middleware/common.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/middleware/common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/compiler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/messages/storage/cookie.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/messages/storage/cookie.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/datasource.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/datasource.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/datastructures.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/datastructures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/debug.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/views/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/driver.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/gdal/driver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/command/easy_install.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/encoding.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/encoding.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/exceptions.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/exceptions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/flush.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/flush.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/conf/global_settings.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/conf/global_settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/hashers.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/auth/hashers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/heapq.py" afterPath="$PROJECT_DIR$/django/venv/Lib/heapq.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/helpers.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/html_parser.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/html_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/files/images.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/files/images.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/introspection.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/introspection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/introspection.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/sqlite3/introspection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/json.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/json.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/loaddata.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/loaddata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/cache/backends/locmem.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/cache/backends/locmem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/log.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/utils/log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/middleware.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/middleware.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/migrate.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/migrate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/forms/models.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/forms/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/http/multipartparser.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/http/multipartparser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/utils/ogrinspect.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/utils/ogrinspect.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/operations.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/operations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/postgres/operations.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/postgres/operations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/mysql/operations.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/backends/mysql/operations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/setuptools/package_index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/pyyaml.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/pyyaml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/query.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/query.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/requests/packages/urllib3/request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sites/requests.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sites/requests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/http/response.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/http/response.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/sanitizer.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/html5lib/sanitizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/shutil.py" afterPath="$PROJECT_DIR$/django/venv/Lib/shutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/signed_cookies.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/sessions/backends/signed_cookies.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/sql.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/sql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/sqlmigrate.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/management/commands/sqlmigrate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/tarfile.py" afterPath="$PROJECT_DIR$/django/venv/Lib/tarfile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/test/test_install.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/wheel/test/test_install.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/test/testcases.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/test/testcases.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/transaction.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/transaction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/encodings/utf_8_sig.py" afterPath="$PROJECT_DIR$/django/venv/Lib/encodings/utf_8_sig.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/utils.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admin/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admindocs/views.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/contrib/admindocs/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/where.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/db/models/sql/where.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/xml_serializer.py" afterPath="$PROJECT_DIR$/django/venv/Lib/site-packages/django/core/serializers/xml_serializer.py" />
     </list>
-    <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/vim.png" />
-    </list>
+    <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01" />
     <ignored path="PyCharm.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -304,34 +161,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_review" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,12 +468,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00027" summary="LeetCode directory">
-      <created>1436321430318</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1436321430318</updated>
-    </task>
     <task id="LOCAL-00028" summary="LC Solutions">
       <created>1436336105856</created>
       <option name="number" value="00028" />
@@ -933,7 +756,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441128953768</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="09/01">
+      <created>1441149678647</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1441149678648</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -942,11 +771,11 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22412698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2614108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29183957" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29183957" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
