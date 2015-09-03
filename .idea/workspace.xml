@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/vim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/001.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/002.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/003.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/010.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/022.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/023.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/030.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/031.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/101.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/110.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/111.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/112.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/113.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/120.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/121.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/132.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/133.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/200.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/211.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/212.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/220.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/221.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/222.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/223.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/231.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/301.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/302.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/303.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/310.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/323.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/330.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/331.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/411.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/412.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/413.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/421.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/432.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/433.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/503.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/522.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/523.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/530.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba_data/531.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/encryption.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/sample.ebert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intern/simba.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intern/email_generator/dist/email_preview.txt" afterPath="$PROJECT_DIR$/intern/email_generator/dist/email_preview.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/140_word_break_II.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01" />
@@ -72,18 +24,7 @@
     <favorites_list name="PyCharm" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="simba.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/intern/simba.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21920668">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/098_valid_binary_search_tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/031_next_permutation.py" />
         <option value="$PROJECT_DIR$/LeetCode/095_unique_binary_search_tree_II.py" />
         <option value="$PROJECT_DIR$/LeetCode/035_search_insert_position.py" />
@@ -155,6 +95,7 @@
         <option value="$PROJECT_DIR$/leetcode/143_reorder_list.py" />
         <option value="$PROJECT_DIR$/sawadika/sawadika.py" />
         <option value="$PROJECT_DIR$/intern/simba.py" />
+        <option value="$PROJECT_DIR$/leetcode/140_word_break_II.py" />
       </list>
     </option>
   </component>
@@ -235,7 +176,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="intern" />
+              <option name="myItemId" value="leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,12 +596,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00035" summary="Test">
-      <created>1436845821490</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1436845821490</updated>
-    </task>
     <task id="LOCAL-00036" summary="004_median_of_two_sorted_array">
       <created>1436857964705</created>
       <option name="number" value="00036" />
@@ -949,15 +884,22 @@
       <option name="project" value="LOCAL" />
       <updated>1441150368926</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="09/02">
+      <created>1441218727909</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1441218727910</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22412698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22412698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2614108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -966,7 +908,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -990,7 +931,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="009_palindrome_number" />
     <MESSAGE value="160_insersection_of_two_linked_list" />
     <MESSAGE value="30" />
     <MESSAGE value="spelling_check" />
@@ -1015,7 +955,8 @@
     <MESSAGE value="08/28" />
     <MESSAGE value="08/31" />
     <MESSAGE value="09/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/01" />
+    <MESSAGE value="09/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="09/02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,10 +1270,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/139_word_break.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/140_word_break_II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56993735">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/intern/simba.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21920668">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.56993735">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>
