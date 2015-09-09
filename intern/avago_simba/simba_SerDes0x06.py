@@ -59,7 +59,7 @@ def main():
                 ws.cell(row = r, column = 11).value = int(eye_height_str[0])
                 ws.cell(row = r, column = 12).value = int(eye_width_str[0])
 
-    wb.save("simba.xlsx")
+    wb.save("simba_SerDes0x06.xlsx")
 
 
 def find_line_num(filename, pattern):
