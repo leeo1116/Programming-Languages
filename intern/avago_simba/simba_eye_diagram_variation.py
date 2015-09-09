@@ -7,22 +7,26 @@ def main():
     import re
     wb = Workbook()
     ws = wb.active
-    ws.title = "9 Inch LSDIO1 SerDes0X06_09 Eye Diagram Variation"
+    ws.title = "Eye Diagram Variation"
 
     n_serdes = 4
     n_index = 10
     BER = 1e-10
+    atten = 0
+    pre = 0
+    post = 0
     for serdes in range(n_serdes):
         for index in range(n_index):
 
             # Generate tap-coefficients of TX FFE
-            r = serdes*n_index+n_index+1
-            ws.cell(row = r, column = 1).value = 0
-            ws.cell(row = r, column = 2).value = 0
-            ws.cell(row = r, column = 3).value = 0
+            r = serdes*n_index+index+1
+            ws.cell(row = r, column = 1).value = atten
+            ws.cell(row = r, column = 2).value = pre
+            ws.cell(row = r, column = 3).value = post
 
             # Read RX CTLE, RX DFE settings and eye height/width
-            filename = "simba_data\\"+str(atten)+str(pre)+str(post)+".ebert"
+            filename = "simba_data\\9 Inch SerDes0X06 Eye Diagram Variation\\"\
+                       +"0x"+"{s:02d}".format(s = serdes+6)+"_000_"+"{i:02d}".format(i = index+1)+".ebert"
             print("Processing file "+filename)
 
             eye_width_line_num = find_line_num(filename, "Eye width at "+str(BER))
@@ -57,7 +61,7 @@ def main():
             ws.cell(row = r, column = 11).value = int(eye_height_str[0])
             ws.cell(row = r, column = 12).value = int(eye_width_str[0])
 
-    wb.save("simba.xlsx")
+    wb.save("simba_eye_diagram_variation.xlsx")
 
 
 def find_line_num(filename, pattern):
