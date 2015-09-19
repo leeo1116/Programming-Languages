@@ -2,149 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\001_two_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\002_add_two_num.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\003_longest_substring.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\004_median_of_two_sorted_array.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\005_longest_palindromic_substring.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\005_longest_palindromic_substring.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\006_zigzag_conversion.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\007_reverse_integer.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\008_string_to_integer.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\009_palindrome_number.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\010_regular_expression_matching.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\011_container_with_most_water.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\012_integer_to_roman.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\013_roman_to_integer.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\014_longest_common_prefix.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\015_3sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\016_3sum_closest.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\017_letter_combinations_of_a_phone_number.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\018_4sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\019_remove_Nth_node_from_end_of_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\020_valid_parathesis.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\021_merge_two_sorted_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\022_generate_parenthesis.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\023_merge_K_sorted_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\024_swap_node_in_pairs.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\025_reverse_nodes_in_k_group.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\026_remove_duplicates_from_sorted_array.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\027_remove_element.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\028_implement_strstr().py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\029_divide_two_integers.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\030_substring_with_concatenation_of_all_words.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\030_substring_with_contatenation_of_all_words.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\031_next_permutation.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\031_next_permutation.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\032_longest_valid_parenthesis.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\033_search_in_rotated_sorted_array.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\034_search_for_a_range.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\035_search_insert_position.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\036_valid_sudoku.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\037_sudoku_solver.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\038_count_say.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\039_combination_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\040_combination_sum_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\041_first_missing_positive.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\042_trapping_raining_water.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\043_multiply_strings.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\044_wildcard_matching.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\045_jump_game.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\046_permutations.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\047_permutations_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\048_rotate_image.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\049_anagrams.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\050_pow(x, n).py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\051_N_queens.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\053_maximum_subarray.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\054_spriral_matrix.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\055_jump_game.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\056_merge_intervals.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\057_insert_interval.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\058_length_of_last_word.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\059_spiral_matrix_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\060_permutation_sequence.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\061_rotate_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\062_unique_paths.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\063_unique_paths_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\064_minimum_path_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\065_valid_number.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\066_plus_one.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\067_add_binary.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\068_text_justification.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\069_sqrt(x).py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\070_climbing_stairs.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\071_simplify_path.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\072_edit_distance.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\073_set_matrix_zeros.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\074_search_a_2D_matrix.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\075_sort_colors.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\076_minimum_window_substring.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\077_combinations.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\078_subsets.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\079_word_search.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\080_remove_duplicates_from_sorted_array_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\081_search_in_rotated_sorted_array.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\081_search_in_rotated_sorted_array_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\082_remove_duplicated_from_sorted_list_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\083_remove_duplicates_from_sorted_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\086_partition_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\088_merge_sorted_array.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\089_gray_code.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\090_subsets_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\091_decode_ways.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\092_reverse_linked_list_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\093_restore_IP_addresses.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\094_binary_tree_inorder_traversal.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\095_unique_binary_search_tree_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\096_unique_binary_search_tree.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\098_valid_binary_search_tree.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\100_same_tree.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\101_symmetric_tree.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\102_binary_tree_level_order_traversal.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\104_maximum_depth_of_binary_tree.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\107_binary_tree_level_order_traversal_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\110_balanced_binary_tree.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\111_min_binary_tree_depth.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\112_path_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\118_pascal_triangle.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\119_pascal_triangle_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\120_triangle.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\121_best_time_to_buy_and_sell_stocks.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\122_best_time_to_buy_and_sell_stocks_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\123_best_time_to_buy_and_sell_stocks_III.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\124_binary_maximum_path_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\125_valid_palindrome.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\133_clone_graph.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\135_candy.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\136_single_number.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\137_single_num_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\138_copy_list_with_random_pointer.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\139_word_break.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\140_word_break_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\141_linked_list_cycle.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\142_linked_list_cycle_II.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\143_reorder_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\144_binary_tree_preorder_traversal.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\145_binary_tree_postorder_traversal.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\146_LRU_cache.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\147_insertion_sort_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\148_sort_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\149_maximum_points_on_a_line.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\150_evaluate_reverse_polish_notation.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\160_intersection_of_two_linked_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\232_implement_queue_using_stack.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\234_palindrome_linked_list.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\235_lowest_common_ancestor.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\237_delete_list_node.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\260_single_num_III.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\CleanCodeHandbook_v1.0.1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\Data Structure and Algorithm in C++.pdf" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\Introduction to Algorithm.pdf" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\LC.pdf" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\Round 2\001_two_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\heaps.pdf" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitHub\PyCharm\leetcode\leetcode stat.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/src/db.sqlite3" afterPath="$PROJECT_DIR$/django/venv/src/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/src/newsletter/admin.py" afterPath="$PROJECT_DIR$/django/venv/src/newsletter/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/src/newsletter/forms.py" afterPath="$PROJECT_DIR$/django/venv/src/newsletter/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/venv/src/newsletter/models.py" afterPath="$PROJECT_DIR$/django/venv/src/newsletter/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01" />
@@ -167,12 +28,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="002_add_two_num.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/R1/002_add_two_num.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25982907">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/venv/src/test_project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40235293">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,9 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/049_anagrams.py" />
-        <option value="$PROJECT_DIR$/LeetCode/048_rotate_image.py" />
-        <option value="$PROJECT_DIR$/LeetCode/059_spiral_matrix.py" />
         <option value="$PROJECT_DIR$/LeetCode/059_spiral_matrix_II.py" />
         <option value="$PROJECT_DIR$/LeetCode/060_permutation_sequence.py" />
         <option value="$PROJECT_DIR$/LeetCode/061_rotate_list.py" />
@@ -249,6 +149,9 @@
         <option value="$PROJECT_DIR$/intern/avago_simba/simba_eye_diagram_variation.py" />
         <option value="$PROJECT_DIR$/leetcode/Round 2/001_two_sum.py" />
         <option value="$PROJECT_DIR$/leetcode/Round 2/002_add_two_numbers.py" />
+        <option value="$PROJECT_DIR$/django/venv/src/newsletter/models.py" />
+        <option value="$PROJECT_DIR$/django/venv/src/newsletter/admin.py" />
+        <option value="$PROJECT_DIR$/django/venv/src/newsletter/forms.py" />
       </list>
     </option>
   </component>
@@ -300,6 +203,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -329,7 +233,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,13 +251,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="intern" />
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -650,18 +617,6 @@
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
     </task>
-    <task id="LOCAL-00044" summary="Go bath">
-      <created>1437896936091</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1437896936092</updated>
-    </task>
-    <task id="LOCAL-00045" summary="CleanCodeHandbook">
-      <created>1437969096104</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1437969096104</updated>
-    </task>
     <task id="LOCAL-00046" summary="good start, thank you. A ans S">
       <created>1438130384886</created>
       <option name="number" value="00046" />
@@ -944,7 +899,19 @@
       <option name="project" value="LOCAL" />
       <updated>1442385840666</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="09/16">
+      <created>1442461520355</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1442461520355</updated>
+    </task>
+    <task id="LOCAL-00094" summary="09/18">
+      <created>1442626469450</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1442626469451</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -956,7 +923,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2614108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26101142" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29183957" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -985,7 +952,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="good start, thank you. A ans S" />
     <MESSAGE value="M" />
     <MESSAGE value="095_uinque_binary_search_tree_II" />
     <MESSAGE value="35" />
@@ -1010,7 +976,8 @@
     <MESSAGE value="09/13" />
     <MESSAGE value="09/15" />
     <MESSAGE value="09/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/16" />
+    <MESSAGE value="09/18" />
+    <option name="LAST_COMMIT_MESSAGE" value="09/18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1168,9 +1135,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/R1/002_add_two_num.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25982907">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/test_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/test_project/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.105802044">
+          <caret line="543" column="39" selection-start-line="543" selection-start-column="39" selection-end-line="543" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/test_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40235293">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
