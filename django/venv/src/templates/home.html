@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block head_title %}Welcome | On the Way{% endblock %}
+
+<style>
+    {% block style %}
+    .jumbotron{
+    background-color: #790303;
+    color: #FFFFFF
+    }
+
+    .navbar-static-top{
+    margin-bottom: 0px
+    }
+
+    .navbar-default {
+
+
+    }
+    {% endblock %}
+</style>
+
+{% block jumbotron %}
+{% if not request.user.is_authenticated %}
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <!-- Main component for a primary marketing message or call to action -->
+                <h1>The Right Way</h1>
+                <p>This web prototype is aimed to help people learn about 'ontheway'. The idea is to help users find the best timing of outing with heavy traffic .
+                    Suggested path and time will be presented to users based on their preference.</p>
+                <p>Developed by Python3.4 with Django1.8 and Bootstrap</p>
+                <p>
+                    <!--<a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>-->
+                    <a class="btn btn-lg btn-primary" href="#anchor" role="button">Join Us &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-7" style="height:400px;">
+
+                {% include 'google_traffic_layer.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+{{ block.super }}
+{% endif %}
+{% endblock %}
+
+
+{% block content %}
+{% if request.user.is_authenticated %}
+<h1 class="lead">You are logged in.</h1>
+    {% if queryset %}
+        <h2>Welcome staff</h2>
+            <table class="table">
+                {% for instance in queryset %}
+                    <tr><td>{{ forloop.counter }}</td><td>{{ instance.email }}</td><td>{{ instance.full_name }}</td><td>{{ instance.timestamp|timesince }} ago</td></tr>
+                {% endfor %}
+            </table>
+
+    {% endif %}
+{% else %}
+<div class="row">
+
+
+
+    <div class="col-sm-3">
+        <p class="lead text_align_center">Schedule in Advance</p>
+        <img src="{% static 'img/schedule in advance.PNG' %}" class="img-responsive" />
+    </div>
+
+    <div class="col-sm-3">
+        <p class="lead text_align_center">Save Time on the Way</p>
+        <img src="{% static 'img/save time.png' %}" class="img-responsive"/>
+    </div>
+
+    <div class="col-sm-3">
+        <p class="lead text_align_center">Simple &amp; Precise</p>
+        <img src="{% static 'img/simple and precise.png' %}" class="img-responsive"/>
+    </div>
+
+        <!--<div class="col-sm-3 pull-right">-->
+    <div class="col-sm-3">
+
+        <p class="lead text_align_center">{{ title }}</p>
+
+        <form method="post" action="">{% csrf_token %}
+            {{ form|crispy }}
+            <input  class='btn btn-primary' type="submit" value="Follow Up" />
+            <a name="anchor"></a>
+            <!--<input type="text">-->
+            <!--<input>-->
+        </form>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
