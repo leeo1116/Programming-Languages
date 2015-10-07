@@ -11,5 +11,15 @@ class Solution:
             return parens
         return generate('', n, n)
 
+    def generate_parenthesis(self, left, right, p='', parenthesis=[]):
+        if not right:
+            parenthesis.append(p)
+        if left:
+            self.generate_parenthesis(left-1, right, p+'(')
+        if right > left:
+            self.generate_parenthesis(left, right-1, p+')')
+
+        return parenthesis
+
 s = Solution()
-print(s.generateParenthesis(3))
+print(s.generate_parenthesis(3, 3))
