@@ -24,11 +24,23 @@ def all_palindrome(s):
                 even_char += key
             else:
                 odd_char += key
-        return permute(even_char)
+        permutation = permute(even_char)
+        all_p = []
+        for p in permutation:
+            all_p.append(p+odd_char+p[::-1])
+        return all_p
     else:
         return []
 
 
-def permute(a):
-    return []
+def permute(s):
+    if len(s) <= 1:
+        return [s]
+    else:
+        permutation = []
+        for i in range(len(s)):
+            for p in permute(s[:i]+s[i+1:]):
+                permutation.append(s[i]+p)
+        return permutation
 
+print(all_palindrome("abcbc"))
