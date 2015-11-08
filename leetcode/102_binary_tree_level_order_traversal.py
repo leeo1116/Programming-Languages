@@ -23,11 +23,13 @@ class Solution(object):
             level_nodes = []
             node_queue_len = len(node_queue)
             while i < node_queue_len:
+
                 level_nodes.append(node_queue[i].val)
                 if node_queue[i].left:
                     node_queue.append(node_queue[i].left)
                 if node_queue[i].right:
                     node_queue.append(node_queue[i].right)
+                node_queue_len = len(node_queue)
 
                 i += 1
             while node_queue_len:

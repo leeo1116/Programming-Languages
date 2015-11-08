@@ -31,4 +31,5 @@ class Solution:
 
 
 s = Solution()
-print(s.searchRange([1, 1, 2, 4, 6, 8, 8, 10], 1))
+# print(s.searchRange([1, 1, 2, 4, 6, 8, 8, 10], 1))
+print(s.searchRange([0, 1, 2, 3, 3, 4, 5, 6], 3))

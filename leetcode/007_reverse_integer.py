@@ -17,6 +17,21 @@ class Solution:
         else:
             return x_reverse
 
-s = Solution()
+
+class SolutionR:
+    # @param {integer} x
+    # @return {integer}
+    def reverse(self, x):
+        if x < 0:
+            x = -x
+        r = 0
+        while x:
+            r = r*10+x%10
+            x //= 10
+        return r if x else -r
+
+
+s = SolutionR()
+print(s.reverse(-12))
 integer_reverse = s.reverse(1)
 print(integer_reverse)
