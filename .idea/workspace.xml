@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/001_two_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/002_add_two_numbers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/003_longest_substring_without_repeating_characters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/004_median_of_two_sorted_arrays.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/ask_ok.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/007_reverse_integer.py" afterPath="$PROJECT_DIR$/leetcode/007_reverse_integer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/034_search_for_a_range.py" afterPath="$PROJECT_DIR$/leetcode/034_search_for_a_range.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/102_binary_tree_level_order_traversal.py" afterPath="$PROJECT_DIR$/leetcode/102_binary_tree_level_order_traversal.py" />
     </list>
     <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01" />
     <ignored path="PyCharm.iws" />
@@ -27,56 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="019_remove_Nth_node_from_end_of_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/019_remove_Nth_node_from_end_of_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="020_valid_parathesis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/020_valid_parathesis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="034_search_for_a_range.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/034_search_for_a_range.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="035_search_insert_position.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/035_search_insert_position.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="038_count_say.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/038_count_say.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="044_wildcard_matching.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/044_wildcard_matching.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,12 +59,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="python_tutorials_basics.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="python_tutorials_basics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_review/python_tutorials_basics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80615383">
+            <state vertical-scroll-proportion="0.0">
               <caret line="278" column="11" selection-start-line="278" selection-start-column="11" selection-end-line="278" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="001_two_sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/001_two_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="52" />
+              <folding>
+                <marker date="1446946394067" expanded="true" signature="490:874" placeholder="..." />
+                <marker date="1446946394067" expanded="true" signature="521:548" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="002_add_two_numbers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/002_add_two_numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003_longest_substring_without_repeating_characters.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/003_longest_substring_without_repeating_characters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="004_median_of_two_sorted_arrays.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/004_median_of_two_sorted_arrays.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ask_ok.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/ask_ok.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <marker date="1446966155096" expanded="true" signature="65:350" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,11 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/django/venv/src/templates/example_fluid.html" />
-        <option value="$PROJECT_DIR$/django/venv/src/templates/head_css.html" />
-        <option value="$PROJECT_DIR$/django/venv/src/test_project/views.py" />
-        <option value="$PROJECT_DIR$/django/venv/src/static_in_pro/our_static/css/custom.css" />
-        <option value="$PROJECT_DIR$/django/venv/src/test_project/urls.py" />
         <option value="$PROJECT_DIR$/django/venv/src/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/django/venv/src/templates/registration/activation_email_subject.txt" />
         <option value="$PROJECT_DIR$/django/venv/src/templates/registration/activation_complete.html" />
@@ -200,6 +202,11 @@
         <option value="$PROJECT_DIR$/leetcode/007_reverse_integer.py" />
         <option value="$PROJECT_DIR$/leetcode/034_search_for_a_range.py" />
         <option value="$PROJECT_DIR$/leetcode/102_binary_tree_level_order_traversal.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/001_two_sum.py" />
+        <option value="$PROJECT_DIR$/practice/ask_ok.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/002_add_two_numbers.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/003_longest_substring_without_repeating_characters.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/004_median_of_two_sorted_arrays.py" />
       </list>
     </option>
   </component>
@@ -280,7 +287,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyCharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode_charlie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,75 +354,7 @@
       <recent name="F:\GitHub\PyCharm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.102_binary_tree_level_order_traversal">
-    <configuration default="false" name="wordcount" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MapReduce/word_counter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MapReduce/word_counter/wordcount.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="reducer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MapReduce/word_counter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MapReduce/word_counter/reducer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="007_reverse_integer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/007_reverse_integer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="034_search_for_a_range" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/034_search_for_a_range.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.003_longest_substring_without_repeating_characters">
     <configuration default="false" name="102_binary_tree_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,6 +368,74 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyCharm" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/102_binary_tree_level_order_traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="001_two_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_charlie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/001_two_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ask_ok" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/ask_ok.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="002_add_two_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_charlie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/002_add_two_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="003_longest_substring_without_repeating_characters" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_charlie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/003_longest_substring_without_repeating_characters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -560,19 +581,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.hxg" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wordcount" />
-      <item index="2" class="java.lang.String" itemvalue="Python.reducer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.007_reverse_integer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.034_search_for_a_range" />
-      <item index="5" class="java.lang.String" itemvalue="Python.102_binary_tree_level_order_traversal" />
+      <item index="1" class="java.lang.String" itemvalue="Python.102_binary_tree_level_order_traversal" />
+      <item index="2" class="java.lang.String" itemvalue="Python.001_two_sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ask_ok" />
+      <item index="4" class="java.lang.String" itemvalue="Python.002_add_two_numbers" />
+      <item index="5" class="java.lang.String" itemvalue="Python.003_longest_substring_without_repeating_characters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.102_binary_tree_level_order_traversal" />
-        <item index="1" class="java.lang.String" itemvalue="Python.034_search_for_a_range" />
-        <item index="2" class="java.lang.String" itemvalue="Python.007_reverse_integer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.reducer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wordcount" />
+        <item index="0" class="java.lang.String" itemvalue="Python.003_longest_substring_without_repeating_characters" />
+        <item index="1" class="java.lang.String" itemvalue="Python.002_add_two_numbers" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ask_ok" />
+        <item index="3" class="java.lang.String" itemvalue="Python.001_two_sum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.102_binary_tree_level_order_traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -586,12 +607,6 @@
       <created>1433398666103</created>
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
-    </task>
-    <task id="LOCAL-00051" summary="53">
-      <created>1438823695637</created>
-      <option name="number" value="00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1438823695639</updated>
     </task>
     <task id="LOCAL-00052" summary="con">
       <created>1438907949404</created>
@@ -881,32 +896,38 @@
       <option name="project" value="LOCAL" />
       <updated>1443770213950</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="11/07">
+      <created>1446942668583</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1446942668584</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24181548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24181548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25895765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4232026" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25816995" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4232026" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28431374" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2850163" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46254072" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -922,7 +943,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="34" />
     <MESSAGE value="53" />
     <MESSAGE value="con" />
     <MESSAGE value="08/07" />
@@ -947,7 +967,8 @@
     <MESSAGE value="10/01" />
     <MESSAGE value="Undo Delete Settings" />
     <MESSAGE value="10/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="10/02" />
+    <MESSAGE value="11/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,6 +1007,11 @@
           <line>34</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_charlie/003_longest_substring_without_repeating_characters.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -1001,7 +1027,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="140" />
+      <option name="time" value="146" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1011,41 +1037,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/django/venv/src/test_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/venv/src/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29180887">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/venv/src/newsletter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/venv/src/static_in_pro/our_static/js/ie10-viewport-bug-workaround.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/venv/src/static_in_pro/our_static/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1019678">
@@ -1374,8 +1365,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_review/python_tutorials_basics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80615383">
+        <state vertical-scroll-proportion="0.0">
           <caret line="278" column="11" selection-start-line="278" selection-start-column="11" selection-end-line="278" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/001_two_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <marker date="1446946394067" expanded="true" signature="490:874" placeholder="..." />
+            <marker date="1446946394067" expanded="true" signature="521:548" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/ask_ok.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1446966155096" expanded="true" signature="65:350" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/002_add_two_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/003_longest_substring_without_repeating_characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/004_median_of_two_sorted_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
