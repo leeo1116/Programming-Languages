@@ -45,3 +45,4 @@ def find_kth_smallest(nums1, nums2, k):
 
 s = Solution(4)
 print(s.median_of_two_sorted_array([], [2, 3]))
+pass
