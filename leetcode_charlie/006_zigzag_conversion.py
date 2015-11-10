@@ -18,3 +18,4 @@ class Solution(object):
         pass
 
     def zigzag_conversion(self, s, n):
+        pass
