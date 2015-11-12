@@ -27,8 +27,7 @@ def process_data(thread_name, q):
             print("{0:s} processing {1:s} {2:s}".format(thread_name, data, time.ctime(time.time())))
         else:
             queue_lock.release()
-            pass
-        time.sleep(2)
+        time.sleep(1)  # Leave some chance for other threads
 
 thread_list = ["Thread-0", "Thread-1", "Thread-2"]
 name_list = ["data1", "data2", "data3", "data4", "data5"]
@@ -43,6 +42,8 @@ for t_name in thread_list:
     thread.start()
     threads.append(thread)
     threadID += 1
+
+print(threading.current_thread())
 
 print("Work queue empty")
 # Fill the queue
