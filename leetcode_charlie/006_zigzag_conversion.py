@@ -18,4 +18,18 @@ class Solution(object):
         pass
 
     def zigzag_conversion(self, s, n):
-        pass
+        if n <= 1:
+            return s
+        s_len = len(s)
+        s_zigzag = ['']*n
+        for i in range(s_len):
+            row = i%(n+n-2)
+            if n <= row < n+n-2:
+                row = (n+n-2)-row
+            s_zigzag[row] += s[i]
+        s_zigzag = ''.join(s_zigzag)
+        return s_zigzag
+
+s = Solution(6)
+print(s.zigzag_conversion("a", 1))
+
