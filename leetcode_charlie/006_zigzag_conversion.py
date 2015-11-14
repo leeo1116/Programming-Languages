@@ -23,7 +23,7 @@ class Solution(object):
         s_len = len(s)
         s_zigzag = ['']*n
         for i in range(s_len):
-            row = i%(n+n-2)
+            row = i % (n+n-2)
             if n <= row < n+n-2:
                 row = (n+n-2)-row
             s_zigzag[row] += s[i]
