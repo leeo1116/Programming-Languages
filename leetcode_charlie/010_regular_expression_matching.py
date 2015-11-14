@@ -60,7 +60,7 @@ class Solution(object):
             else:
                 return self.regular_expression_matching(s, p[:-2])
         else:
-            if s and p[-1] == '.' or p[-1] == s[-1]:
+            if s and (p[-1] == '.' or p[-1] == s[-1]):
                 return self.regular_expression_matching(s[:-1], p[:-1])
             else:
                 return False

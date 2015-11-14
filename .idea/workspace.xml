@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/011_container_with_most_water.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/012_integer_to_roman.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/013_roman_to_integer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode_charlie/010_regular_expression_matching.py" afterPath="$PROJECT_DIR$/leetcode_charlie/010_regular_expression_matching.py" />
     </list>
     <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01" />
     <ignored path="PyCharm.iws" />
@@ -24,30 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="multithreading.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multithreading/multithreading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multithreading_prority_queue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multithreading/multithreading_prority_queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="006_zigzag_conversion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode_charlie/006_zigzag_conversion.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +68,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="010_regular_expression_matching.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="010_regular_expression_matching.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode_charlie/010_regular_expression_matching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65343916">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <marker date="1447466187072" expanded="true" signature="548:2321" placeholder="..." />
+                <marker date="1447466187072" expanded="true" signature="579:606" placeholder="..." />
+                <marker date="1447466187072" expanded="true" signature="656:2321" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="011_container_with_most_water.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/011_container_with_most_water.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="012_integer_to_roman.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/012_integer_to_roman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="013_roman_to_integer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/013_roman_to_integer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57210404">
+              <caret line="29" column="33" selection-start-line="11" selection-start-column="0" selection-end-line="40" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -113,16 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="006_zigzag_conversion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/006_zigzag_conversion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,9 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/django/venv/src/templates/registration/registration_complete.html" />
-        <option value="$PROJECT_DIR$/django/venv/src/test_project/wsgi.py" />
-        <option value="$PROJECT_DIR$/django/venv/src/test_project/settings.py" />
         <option value="$PROJECT_DIR$/django/venv/src/app.yaml" />
         <option value="$PROJECT_DIR$/django/venv/webfaction/httpd.conf" />
         <option value="$PROJECT_DIR$/django/venv/src/requirement.txt" />
@@ -201,6 +202,9 @@
         <option value="$PROJECT_DIR$/leetcode_charlie/008_string_to_integer.py" />
         <option value="$PROJECT_DIR$/leetcode_charlie/009_palindrome_number.py" />
         <option value="$PROJECT_DIR$/leetcode_charlie/010_regular_expression_matching.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/011_container_with_most_water.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/012_integer_to_roman.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/013_roman_to_integer.py" />
       </list>
     </option>
   </component>
@@ -334,24 +338,7 @@
       <recent name="F:\GitHub\PyCharm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.009_palindrome_number">
-    <configuration default="false" name="multithreading_prority_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multithreading" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multithreading/multithreading_prority_queue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.011_container_with_most_water">
     <configuration default="false" name="006_zigzag_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -416,6 +403,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyCharm" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/009_palindrome_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="011_container_with_most_water" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_charlie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/011_container_with_most_water.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -561,19 +565,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.hxg" />
-      <item index="1" class="java.lang.String" itemvalue="Python.multithreading_prority_queue" />
-      <item index="2" class="java.lang.String" itemvalue="Python.006_zigzag_conversion" />
-      <item index="3" class="java.lang.String" itemvalue="Python.007_reverse_integer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.008_string_to_integer" />
-      <item index="5" class="java.lang.String" itemvalue="Python.009_palindrome_number" />
+      <item index="1" class="java.lang.String" itemvalue="Python.006_zigzag_conversion" />
+      <item index="2" class="java.lang.String" itemvalue="Python.007_reverse_integer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.008_string_to_integer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.009_palindrome_number" />
+      <item index="5" class="java.lang.String" itemvalue="Python.011_container_with_most_water" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.009_palindrome_number" />
-        <item index="1" class="java.lang.String" itemvalue="Python.008_string_to_integer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.007_reverse_integer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.006_zigzag_conversion" />
-        <item index="4" class="java.lang.String" itemvalue="Python.multithreading_prority_queue" />
+        <item index="0" class="java.lang.String" itemvalue="Python.011_container_with_most_water" />
+        <item index="1" class="java.lang.String" itemvalue="Python.009_palindrome_number" />
+        <item index="2" class="java.lang.String" itemvalue="Python.008_string_to_integer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.007_reverse_integer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.006_zigzag_conversion" />
       </list>
     </recent_temporary>
   </component>
@@ -587,12 +591,6 @@
       <created>1433398666103</created>
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
-    </task>
-    <task id="LOCAL-00059" summary="08/18">
-      <created>1439945190321</created>
-      <option name="number" value="00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1439945190321</updated>
     </task>
     <task id="LOCAL-00060" summary="08/21">
       <created>1440202786062</created>
@@ -882,7 +880,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447466073478</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="11/13">
+      <created>1447466085513</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1447466085513</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -928,15 +932,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24030516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42194092" sideWeight="0.50222504" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42194092" sideWeight="0.49777496" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3586498" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42194092" sideWeight="0.49777496" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3586498" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1053,27 +1057,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/024_swap_node_in_pairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/026_remove_duplicates_from_sorted_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/089_gray_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/046_permutations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1355,7 +1338,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1365,7 +1348,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1428,8 +1411,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_charlie/010_regular_expression_matching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65343916">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <marker date="1447466187072" expanded="true" signature="548:2321" placeholder="..." />
+            <marker date="1447466187072" expanded="true" signature="579:606" placeholder="..." />
+            <marker date="1447466187072" expanded="true" signature="656:2321" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/011_container_with_most_water.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/012_integer_to_roman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/013_roman_to_integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57210404">
+          <caret line="29" column="33" selection-start-line="11" selection-start-column="0" selection-end-line="40" selection-end-column="27" />
           <folding />
         </state>
       </provider>
