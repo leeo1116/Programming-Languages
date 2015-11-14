@@ -50,7 +50,7 @@ class Solution(object):
                 ==> return False
         :param s: input string
         :param p: input pattern
-        :return:
+        :return: bool
         """
         if not p:
             return not s
