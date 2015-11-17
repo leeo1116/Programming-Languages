@@ -15,3 +15,5 @@ class Solution(object):
         pass
 
     def merge_two_sorted_list(self, l1, l2):
+        pass
+
