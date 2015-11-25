@@ -1,0 +1,1424 @@
+# $Header: /net/easystreet/vol/ipdesign/cvs_repository/design/bin/lib/TMMemory.rb,v 1.13 2011/08/11 19:27:58 slavick Exp $
+#################################################################
+#
+# SERDES ESB DMA REGISTER MAP FILE
+#
+#################################################################
+#
+#  ACCESS - R (Read)
+#         - W (Write)
+# ADDR <NUMBER> <clock> <PROJ ADDRESS NAME> <RESERVED?>
+# REG  BITS DEFAULT ACCESS <PROJ_REGNAME> <NOTES> <RESERVED?>
+#################################################################
+CLIENT_TYPE DMA
+REVISION 2
+#################################################################
+#
+# ID_CODE = 0x01
+# INDUCTOR_CODE = 0x3
+# IP_ID_CODE = 0x9
+#
+#################################################################
+####  A_TOP.RX.RX_PLL
+#################################################################
+#
+############################################
+#   rx_pll_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 128/0x80 async RX_PLL_MISC_CTL
+REG     15      0   RW RX_TEST_CLK_CNTL_1
+REG     14      0   RW RX_TEST_CLK_CNTL_0
+REG     13      0   RW RX_FDBK_EN_I
+REG     12      0   RW RX_FDBK_EN_Q
+REG     11      1   RW RX_CAL_UPDATE
+REG     10      0   RW RX_FORCE_PFD_UP
+REG      9      0   RW RX_FORCE_PFD_DN
+REG      8      0   RW RX_FORCE_PFD_OFF
+REG      7      0   RW RX_DISABLE_CHK
+REG      6      0   RW RX_PLL_FORCE
+REG      5      0   RW RX_CP_BOOST
+REG      4      0   RW RX_PFD_STARTUP
+REG      3      0   RW RX_CAL_FORCE_CALIBRATION
+REG      2      0   RW RX_FPU_HI_GAIN
+REG      1      0   RW RX_FAST_PFD_MODE
+REG      0      0   RW RX_SEL_PFD
+
+############################################
+#   rx_pll_gain
+#   Register_type = Base_Register
+############################################
+ADDR 129/0x81 async RX_PLL_GAIN
+REG  15:13      0   RW UNUSED_RX_PLL_GAIN__15_13
+REG   12:8      5   RW RX_NML_INT_GAIN
+REG    7:4      0   RW UNUSED_RX_PLL_GAIN__7_4
+REG    3:0    0xf   RW RX_NML_BB_GAIN
+
+############################################
+#   rx_pll_pd_gain
+#   Register_type = Base_Register
+############################################
+ADDR 130/0x82 async RX_PLL_PD_GAIN
+REG  15:13      0   RW UNUSED_RX_PLL_PD_GAIN__15_13
+REG   12:8      5   RW RX_PD_INT_GAIN
+REG    7:4      0   RW UNUSED_RX_PLL_PD_GAIN__7_4
+REG    3:0    0xf   RW RX_PD_BB_GAIN
+
+############################################
+#   rx_pll_thrm_cal
+#   Register_type = Shadow_Register
+#   Update = A_TOP.RX.RX_PLL.rx_cal_update
+############################################
+ADDR 131/0x83 async RX_PLL_THRM_CAL
+REG  15:15      0   RW UNUSED_RX_PLL_THRM_CAL__15
+REG   14:0      0   RW RX_CAL_DAC_THERM
+
+############################################
+#   rx_pll_bin_cal
+#   Register_type = Shadow_Register
+#   Update = A_TOP.RX.RX_PLL.rx_cal_update
+############################################
+ADDR 132/0x84 async RX_PLL_BIN_CAL
+REG   15:8      0   RW RX_VCO_ANALOG_GAIN
+REG    7:3      0   RW UNUSED_RX_PLL_BIN_CAL__7_3
+REG    2:0      0   RW RX_CAL_DAC_BIN
+
+############################################
+#   rx_pll_ref_div_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 133/0x85 async RX_PLL_REF_DIV_CTL
+REG   15:6      0   RW UNUSED_RX_PLL_REF_DIV_CTL__15_6
+REG      5      0   RW PLL_CONTROL6[5]
+REG    4:0   0x10   RW RX_REFCLK_DIV_CNTL
+
+############################################
+#   rx_pll_f2_div_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 134/0x86 async RX_PLL_F2_DIV_CTL
+REG   15:5      0   RW UNUSED_RX_PLL_F2_DIV_CTL__15_5
+REG    4:3      3   RW RX_F2DIV_S1
+REG    2:0      4   RW RX_F2DIV
+
+############################################
+#   rx_pll_f2_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 135/0x87 async RX_PLL_F2_MISC_CTL
+REG  15:14      0   RW UNUSED_RX_PLL_F2_MISC_CTL__15_14
+REG  13:12      0   RW RX_ADC_MUX
+REG     11      1   RW RX_FDBK_EN_S1
+REG     10      1   RW RX_FDBK_EN
+REG      9      1   RW RX_SCR_DIV2_ENABLE
+REG    8:7      0   RW RX_QUADGEN_FB
+REG      6      1   RW RX_QUADGEN_FAST
+REG      5      1   RW RX_QUADGEN_RANGE
+REG    4:0   0x10   RW UNUSED_RX_PLL_F2_MISC_CTL__4_0
+
+############################################
+#   rx_pll_pd_ctl_1
+#   Register_type = Power_Down_Register
+############################################
+ADDR 136/0x88 async RX_PLL_PD_CTL_1
+REG     15      1   RW RX_F2GEN_PD_3
+REG     14      1   RW RX_F2GEN_PD_2
+REG     13      1   RW RX_F2GEN_PD_1
+REG     12      1   RW RX_F2GEN_PD_0
+REG     11      1   RW RX_CPUMP_PD_3
+REG     10      1   RW RX_CPUMP_PD_2
+REG      9      1   RW RX_CPUMP_PD_1
+REG      8      1   RW RX_CPUMP_PD_0
+REG      7      1   RW RX_VCO_PD_3
+REG      6      1   RW RX_VCO_PD_2
+REG      5      1   RW RX_VCO_PD_1
+REG      4      1   RW RX_VCO_PD_0
+REG      3      1   RW RX_VREF_PD_3
+REG      2      1   RW RX_VREF_PD_2
+REG      1      1   RW RX_VREF_PD_1
+REG      0      1   RW RX_VREF_PD_0
+
+############################################
+#   rx_pll_pd_ctl_2
+#   Register_type = Power_Down_Register
+############################################
+ADDR 137/0x89 async RX_PLL_PD_CTL_2
+REG     15      1   RW PD_GAIN_CTL_3
+REG     14      1   RW PD_GAIN_CTL_2
+REG     13      1   RW PD_GAIN_CTL_1
+REG     12      1   RW PD_GAIN_CTL_0
+REG     11      1   RW RX_PIREF_DIV_PD_3
+REG     10      1   RW RX_PIREF_DIV_PD_2
+REG      9      1   RW RX_PIREF_DIV_PD_1
+REG      8      1   RW RX_PIREF_DIV_PD_0
+REG      7      1   RW RX_F2Q_PD_3
+REG      6      1   RW RX_F2Q_PD_2
+REG      5      1   RW RX_F2Q_PD_1
+REG      4      1   RW RX_F2Q_PD_0
+REG      3      1   RW RX_INT_PD_3
+REG      2      1   RW RX_INT_PD_2
+REG      1      1   RW RX_INT_PD_1
+REG      0      1   RW RX_INT_PD_0
+
+#################################################################
+####  A_TOP.RX.PI
+#################################################################
+#
+############################################
+#   pi_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 138/0x8a async PI_MISC_CTL
+REG  15:14      0   RW UNUSED_PI_MISC_CTL__15_14
+REG     13      1   RW PI_UPDATE
+REG  12:11      1   RW UNUSED_PI_MISC_CTL__12_11
+REG     10      1   RW PI_FDBK_EN_PRE
+REG      9      1   RW PI_FDBK_EN_R
+REG    8:4   0x18   RW UNUSED_PI_MISC_CTL__8_4
+REG    3:0      3   RW PI_SEL
+
+############################################
+#   pi_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 139/0x8b async PI_PD_CTL
+REG   15:8   0xff   RW UNUSED_PI_PD_CTL__15_8
+REG      7      1   RW PI_F2R_PD_3
+REG      6      1   RW PI_F2R_PD_2
+REG      5      1   RW PI_F2R_PD_1
+REG      4      1   RW PI_F2R_PD_0
+REG      3      1   RW PI_PDR_BOGUS_3
+REG      2      1   RW PI_PDR_BOGUS_2
+REG      1      1   RW PI_PDR_BOGUS_1
+REG      0      1   RW PI_PDR_BOGUS_0
+
+############################################
+#   pi_bt_lo_ctl
+#   Register_type = Shadow_Register
+#   Update = A_TOP.RX.PI.pi_update
+############################################
+ADDR 140/0x8c async PI_BT_LO_CTL
+REG   15:0 0xffff   RW PI_BT_15_0
+
+############################################
+#   pi_bt_hi_ctl
+#   Register_type = Shadow_Register
+#   Update = A_TOP.RX.PI.pi_update
+############################################
+ADDR 141/0x8d async PI_BT_HI_CTL
+REG   15:0 0xffff   RW PI_BT_31_16
+
+############################################
+#   pi_nt_lo_ctl
+#   Register_type = Shadow_Register
+#   Update = A_TOP.RX.PI.pi_update
+############################################
+ADDR 142/0x8e async PI_NT_LO_CTL
+REG   15:0      0   RW PI_NT_15_0
+
+############################################
+#   pi_nt_hi_ctl
+#   Register_type = Shadow_Register
+#   Update = A_TOP.RX.PI.pi_update
+############################################
+ADDR 143/0x8f async PI_NT_HI_CTL
+REG   15:0      0   RW PI_NT_31_16
+
+############################################
+#   pi_div_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 144/0x90 async PI_DIV_CTL
+REG  15:11      0   RW UNUSED_PI_DIV_CTL__15_11
+REG   10:4      0   RW PI_AMPCTRL
+REG      3      0   RW PI_DIV2
+REG    2:0      0   RW PI_F2DIV
+
+#################################################################
+####  A_TOP.RX.RI.REG
+#################################################################
+#
+############################################
+#   dfe_misc_ctl1
+#   Register_type = Base_Register
+############################################
+ADDR 146/0x92 async DFE_MISC_CTL1
+REG     15      0   RW BROADBANDATTEN
+REG  14:14      0   RW UNUSED_DFE_MISC_CTL1__14
+REG     13      0   RW GAIN_DC_HOLD
+REG  12:11      0   RW DCR_SEL
+REG     10      0   RW VOS_HOLD
+REG      9      0   RW DEC_CLK_INV
+REG      8      0   RW PHD_CLK_INV
+REG    7:0   0x8c   RW DAT_SEL
+
+############################################
+#   dfe_misc_ctl2
+#   Register_type = Base_Register
+############################################
+ADDR 147/0x93 async DFE_MISC_CTL2
+REG  15:12      8   RW TAP_SEL
+REG   11:8      8   RW T2CLK1_SEL
+REG    7:4      8   RW T2CLK0_SEL
+REG    3:0      8   RW D2CLK0_SEL
+
+############################################
+#   dfe_misc_ctl3
+#   Register_type = Base_Register
+############################################
+ADDR 148/0x94 async DFE_MISC_CTL3
+REG  15:14      0   RW DFE_HOLD
+REG  13:13      1   RW UNUSED_DFE_MISC_CTL3__13
+REG     12      1   RW PHD_CDR_MODE
+REG     11      0   RW PHD_DCC_FDBK
+REG   10:9      0   RW CDC_SEL
+REG    8:8      0   RW UNUSED_DFE_MISC_CTL3__8
+REG    7:6      3   RW FLTCLK_SEL
+REG      5      1   RW DFE_TAP_FDBKEN
+REG      4      1   RW DFE_T1_FDBKEN
+REG      3      1   RW DFE_T0_FDBKEN
+REG      2      1   RW DFE_D0_FDBKEN
+REG    1:0      2   RW DCRHP
+
+#################################################################
+####  A_TOP.RX.RI.VOSREG
+#################################################################
+#
+############################################
+#   dfe_vd0ose
+#   Register_type = Base_Register
+############################################
+ADDR 149/0x95 async DFE_VD0OSE
+REG   15:8      0   RW UNUSED_DFE_VD0OSE__15_8
+REG    7:0   0x80   RW VD0OSE
+
+############################################
+#   dfe_vd1ose
+#   Register_type = Base_Register
+############################################
+ADDR 150/0x96 async DFE_VD1OSE
+REG   15:8      0   RW UNUSED_DFE_VD1OSE__15_8
+REG    7:0   0x80   RW VD1OSE
+
+############################################
+#   dfe_vt0ose
+#   Register_type = Base_Register
+############################################
+ADDR 151/0x97 async DFE_VT0OSE
+REG   15:8      0   RW UNUSED_DFE_VT0OSE__15_8
+REG    7:0   0x80   RW VT0OSE
+
+############################################
+#   dfe_vt1ose
+#   Register_type = Base_Register
+############################################
+ADDR 152/0x98 async DFE_VT1OSE
+REG   15:8      0   RW UNUSED_DFE_VT1OSE__15_8
+REG    7:0   0x80   RW VT1OSE
+
+############################################
+#   dfe_vd0oso
+#   Register_type = Base_Register
+############################################
+ADDR 153/0x99 async DFE_VD0OSO
+REG   15:8      0   RW UNUSED_DFE_VD0OSO__15_8
+REG    7:0   0x80   RW VD0OSO
+
+############################################
+#   dfe_vd1oso
+#   Register_type = Base_Register
+############################################
+ADDR 154/0x9a async DFE_VD1OSO
+REG   15:8      0   RW UNUSED_DFE_VD1OSO__15_8
+REG    7:0   0x80   RW VD1OSO
+
+############################################
+#   dfe_vt0oso
+#   Register_type = Base_Register
+############################################
+ADDR 155/0x9b async DFE_VT0OSO
+REG   15:8      0   RW UNUSED_DFE_VT0OSO__15_8
+REG    7:0   0x80   RW VT0OSO
+
+############################################
+#   dfe_vt1oso
+#   Register_type = Base_Register
+############################################
+ADDR 156/0x9c async DFE_VT1OSO
+REG   15:8      0   RW UNUSED_DFE_VT1OSO__15_8
+REG    7:0   0x80   RW VT1OSO
+
+#################################################################
+####  A_TOP.RX.RI.REG
+#################################################################
+#
+############################################
+#   dfe_tapadj
+#   Register_type = Base_Register
+############################################
+ADDR 157/0x9d async DFE_TAPADJ
+REG   15:7      0   RW UNUSED_DFE_TAPADJ__15_7
+REG    6:0   0x40   RW TAP_ADJ
+
+############################################
+#   dfe_gainbw
+#   Register_type = Base_Register
+############################################
+ADDR 158/0x9e async DFE_GAINBW
+REG   15:7      0   RW UNUSED_DFE_GAINBW__15_7
+REG    6:0   0x7f   RW GAINBW
+
+############################################
+#   dfe_gainlb
+#   Register_type = Base_Register
+############################################
+ADDR 159/0x9f async DFE_GAINLB
+REG   15:2      0   RW UNUSED_DFE_GAINLB__15_2
+REG    1:0      0   RW GAINLB
+
+############################################
+#   dfe_gaintap
+#   Register_type = Base_Register
+############################################
+ADDR 160/0xa0 async DFE_GAINTAP
+REG   15:4      0   RW UNUSED_DFE_GAINTAP__15_4
+REG    3:0      0   RW GAINTAP
+
+############################################
+#   dfe_gaindc
+#   Register_type = Base_Register
+############################################
+ADDR 161/0xa1 async DFE_GAINDC
+REG   15:8      0   RW UNUSED_DFE_GAINDC__15_8
+REG    7:0      0   RW GAINDC
+
+############################################
+#   dfe_gainlf
+#   Register_type = Base_Register
+############################################
+ADDR 162/0xa2 async DFE_GAINLF
+REG  15:15      0   RW UNUSED_DFE_GAINLF__15
+REG   14:0    0xa   RW GAINLF
+
+############################################
+#   dfe_gainhf
+#   Register_type = Base_Register
+############################################
+ADDR 163/0xa3 async DFE_GAINHF
+REG  15:12      0   RW UNUSED_DFE_GAINHF__15_12
+REG   11:0      0   RW GAINHF
+
+############################################
+#   dfe_gain2d
+#   Register_type = Base_Register
+############################################
+ADDR 164/0xa4 async DFE_GAIN2D
+REG   15:5      0   RW UNUSED_DFE_GAIN2D__15_5
+REG    4:0      0   RW GAIN2D
+
+############################################
+#   dfe_gain3d
+#   Register_type = Base_Register
+############################################
+ADDR 165/0xa5 async DFE_GAIN3D
+REG   15:5      0   RW UNUSED_DFE_GAIN3D__15_5
+REG    4:0      0   RW GAIN3D
+
+############################################
+#   dfe_gain4d
+#   Register_type = Base_Register
+############################################
+ADDR 166/0xa6 async DFE_GAIN4D
+REG   15:5      0   RW UNUSED_DFE_GAIN4D__15_5
+REG    4:0      0   RW GAIN4D
+
+############################################
+#   dfe_gain5d
+#   Register_type = Base_Register
+############################################
+ADDR 167/0xa7 async DFE_GAIN5D
+REG   15:5      0   RW UNUSED_DFE_GAIN5D__15_5
+REG    4:0      0   RW GAIN5D
+
+############################################
+#   dfe_gain6d
+#   Register_type = Base_Register
+############################################
+ADDR 168/0xa8 async DFE_GAIN6D
+REG   15:5      0   RW UNUSED_DFE_GAIN6D__15_5
+REG    4:0      0   RW GAIN6D
+
+############################################
+#   dfe_gain7d
+#   Register_type = Base_Register
+############################################
+ADDR 169/0xa9 async DFE_GAIN7D
+REG   15:5      0   RW UNUSED_DFE_GAIN7D__15_5
+REG    4:0      0   RW GAIN7D
+
+############################################
+#   dfe_gain8d
+#   Register_type = Base_Register
+############################################
+ADDR 170/0xaa async DFE_GAIN8D
+REG   15:5      0   RW UNUSED_DFE_GAIN8D__15_5
+REG    4:0      0   RW GAIN8D
+
+############################################
+#   dfe_gain9d
+#   Register_type = Base_Register
+############################################
+ADDR 171/0xab async DFE_GAIN9D
+REG   15:5      0   RW UNUSED_DFE_GAIN9D__15_5
+REG    4:0      0   RW GAIN9D
+
+############################################
+#   dfe_gainAd
+#   Register_type = Base_Register
+############################################
+ADDR 172/0xac async DFE_GAINAD
+REG   15:5      0   RW UNUSED_DFE_GAINAD__15_5
+REG    4:0      0   RW GAINAD
+
+############################################
+#   dfe_gainBd
+#   Register_type = Base_Register
+############################################
+ADDR 173/0xad async DFE_GAINBD
+REG   15:5      0   RW UNUSED_DFE_GAINBD__15_5
+REG    4:0      0   RW GAINBD
+
+############################################
+#   dfe_gainCd
+#   Register_type = Base_Register
+############################################
+ADDR 174/0xae async DFE_GAINCD
+REG   15:5      0   RW UNUSED_DFE_GAINCD__15_5
+REG    4:0      0   RW GAINCD
+
+############################################
+#   dfe_gainDd
+#   Register_type = Base_Register
+############################################
+ADDR 175/0xaf async DFE_GAINDD
+REG   15:5      0   RW UNUSED_DFE_GAINDD__15_5
+REG    4:0      0   RW GAINDD
+
+############################################
+#   dfe_ref_pga
+#   Register_type = Base_Register
+############################################
+ADDR 176/0xb0 async DFE_REF_PGA
+REG   15:4      0   RW UNUSED_DFE_REF_PGA__15_4
+REG    3:0      1   RW REF_PGA
+
+############################################
+#   dfe_ref_pgb
+#   Register_type = Base_Register
+############################################
+ADDR 177/0xb1 async DFE_REF_PGB
+REG   15:4      0   RW UNUSED_DFE_REF_PGB__15_4
+REG    3:0      2   RW REF_PGB
+
+############################################
+#   dfe_ref_tap
+#   Register_type = Base_Register
+############################################
+ADDR 178/0xb2 async DFE_REF_TAP
+REG   15:4      0   RW UNUSED_DFE_REF_TAP__15_4
+REG    3:0      2   RW REF_TAP
+
+############################################
+#   dfe_d2clk0_del
+#   Register_type = Base_Register
+############################################
+ADDR 179/0xb3 async DFE_D2CLK0_DEL
+REG   15:8      0   RW TAP_CTL
+REG    7:0      0   RW D2CLK0_CTL
+
+############################################
+#   dfe_t2clk_del
+#   Register_type = Base_Register
+############################################
+ADDR 180/0xb4 async DFE_T2CLK_DEL
+REG   15:8      0   RW T2CLK1_CTL
+REG    7:0      0   RW T2CLK0_CTL
+
+############################################
+#   dfe_obs_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 181/0xb5 async DFE_OBS_CTL
+REG   15:8      0   RW CK8OBS_SEL
+REG    7:5      0   RW UNUSED_DFE_OBS_CTL__7_5
+REG      4      0   RW PREDEC_SAMPLE_EN
+REG    3:0      0   RW PREDEC_SAMPLE_CNTL
+
+############################################
+#   dfe_ck_obs
+#   Register_type = Base_Register
+############################################
+ADDR 183/0xb7 async DFE_CK_OBS
+REG  15:12      1   RW TAP_DEL_SEL
+REG   11:8      1   RW T2CLK1_DEL_SEL
+REG    7:4      1   RW T2CLK0_DEL_SEL
+REG    3:0      1   RW D2CLK0_DEL_SEL
+
+############################################
+#   dfe_pd_ctl1
+#   Register_type = Power_Down_Register
+############################################
+ADDR 184/0xb8 async DFE_PD_CTL1
+REG     15      1   RW DFE_DCR_PD_3
+REG     14      1   RW DFE_DCR_PD_2
+REG     13      1   RW DFE_DCR_PD_1
+REG     12      1   RW DFE_DCR_PD_0
+REG     11      1   RW DFE_PGB_PD_3
+REG     10      1   RW DFE_PGB_PD_2
+REG      9      1   RW DFE_PGB_PD_1
+REG      8      1   RW DFE_PGB_PD_0
+REG      7      1   RW DFE_PGA_PD_3
+REG      6      1   RW DFE_PGA_PD_2
+REG      5      1   RW DFE_PGA_PD_1
+REG      4      1   RW DFE_PGA_PD_0
+REG      3      1   RW DFE_BIAS_PD_3
+REG      2      1   RW DFE_BIAS_PD_2
+REG      1      1   RW DFE_BIAS_PD_1
+REG      0      1   RW DFE_BIAS_PD_0
+
+############################################
+#   dfe_pd_ctl2
+#   Register_type = Power_Down_Register
+############################################
+ADDR 185/0xb9 async DFE_PD_CTL2
+REG     15      1   RW DFE_VOS_T1_PD_3
+REG     14      1   RW DFE_VOS_T1_PD_2
+REG     13      1   RW DFE_VOS_T1_PD_1
+REG     12      1   RW DFE_VOS_T1_PD_0
+REG     11      1   RW DFE_VOS_T0_PD_3
+REG     10      1   RW DFE_VOS_T0_PD_2
+REG      9      1   RW DFE_VOS_T0_PD_1
+REG      8      1   RW DFE_VOS_T0_PD_0
+REG      7      1   RW DFE_VOS_D0_PD_3
+REG      6      1   RW DFE_VOS_D0_PD_2
+REG      5      1   RW DFE_VOS_D0_PD_1
+REG      4      1   RW DFE_VOS_D0_PD_0
+REG      3      1   RW DFE_TAP_PD_3
+REG      2      1   RW DFE_TAP_PD_2
+REG      1      1   RW DFE_TAP_PD_1
+REG      0      1   RW DFE_TAP_PD_0
+
+############################################
+#   dfe_pd_ctl3
+#   Register_type = Power_Down_Register
+############################################
+ADDR 186/0xba async DFE_PD_CTL3
+REG     15      1   RW DFE_CLK_T0_PD_3
+REG     14      1   RW DFE_CLK_T0_PD_2
+REG     13      1   RW DFE_CLK_T0_PD_1
+REG     12      1   RW DFE_CLK_T0_PD_0
+REG     11      1   RW DFE_CLK_D0_PD_3
+REG     10      1   RW DFE_CLK_D0_PD_2
+REG      9      1   RW DFE_CLK_D0_PD_1
+REG      8      1   RW DFE_CLK_D0_PD_0
+REG      7      1   RW DFE_PHD_DCC_PD_3
+REG      6      1   RW DFE_PHD_DCC_PD_2
+REG      5      1   RW DFE_PHD_DCC_PD_1
+REG      4      1   RW DFE_PHD_DCC_PD_0
+REG    3:0    0xf   RW UNUSED_DFE_PD_CTL3__3_0
+
+############################################
+#   dfe_pd_ctl4
+#   Register_type = Power_Down_Register
+############################################
+ADDR 187/0xbb async DFE_PD_CTL4
+REG   15:8   0xff   RW UNUSED_DFE_PD_CTL4__15_8
+REG      7      1   RW DFE_CLK_TAP_PD_3
+REG      6      1   RW DFE_CLK_TAP_PD_2
+REG      5      1   RW DFE_CLK_TAP_PD_1
+REG      4      1   RW DFE_CLK_TAP_PD_0
+REG      3      1   RW DFE_CLK_T1_PD_3
+REG      2      1   RW DFE_CLK_T1_PD_2
+REG      1      1   RW DFE_CLK_T1_PD_1
+REG      0      1   RW DFE_CLK_T1_PD_0
+
+#################################################################
+####  A_TOP.RX.DECEL
+#################################################################
+#
+############################################
+#   decel_mode_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 188/0xbc async DECEL_MODE_CTL
+REG  15:15      0   RW UNUSED_DECEL_MODE_CTL__15
+REG     14      0   RW DEC_MODE_80_T
+REG     13      0   RW DEC_MODE_64_T
+REG     12      0   RW DEC_MODE_40_T
+REG     11      0   RW DEC_MODE_32_T
+REG     10      1   RW DEC_MODE_20_T
+REG      9      0   RW DEC_MODE_16_T
+REG      8      0   RW DEC_MODE_10_T
+REG    7:7      0   RW UNUSED_DECEL_MODE_CTL__7
+REG      6      0   RW DEC_MODE_80_D
+REG      5      0   RW DEC_MODE_64_D
+REG      4      0   RW DEC_MODE_40_D
+REG      3      0   RW DEC_MODE_32_D
+REG      2      1   RW DEC_MODE_20_D
+REG      1      0   RW DEC_MODE_16_D
+REG      0      0   RW DEC_MODE_10_D
+
+############################################
+#   decel_sample_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 189/0xbd async DECEL_SAMPLE_CTL
+REG  15:12      0   RW DECEL_SMPL_CTL
+REG     11      0   RW DECEL_SMPL_EN
+REG   10:0      0   RW UNUSED_DECEL_SAMPLE_CTL__10_0
+
+############################################
+#   decel_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 190/0xbe async DECEL_PD_CTL
+REG     15      1   RW DEC_BEACON_D_PD_3
+REG     14      1   RW DEC_BEACON_D_PD_2
+REG     13      1   RW DEC_BEACON_D_PD_1
+REG     12      1   RW DEC_BEACON_D_PD_0
+REG     11      1   RW DEC_BEACON_T_PD_3
+REG     10      1   RW DEC_BEACON_T_PD_2
+REG      9      1   RW DEC_BEACON_T_PD_1
+REG      8      1   RW DEC_BEACON_T_PD_0
+REG      7      1   RW DEC_D_PD_3
+REG      6      1   RW DEC_D_PD_2
+REG      5      1   RW DEC_D_PD_1
+REG      4      1   RW DEC_D_PD_0
+REG      3      1   RW DEC_T_PD_3
+REG      2      1   RW DEC_T_PD_2
+REG      1      1   RW DEC_T_PD_1
+REG      0      1   RW DEC_T_PD_0
+
+#################################################################
+####  A_TOP.RX.fwdivider
+#################################################################
+#
+############################################
+#   rxdiv_misc1_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 191/0xbf async RXDIV_MISC1_CTL
+REG  15:11      0   RW UNUSED_RXDIV_MISC1_CTL__15_11
+REG     10      0   RW SYNC_DLY
+REG      9      0   RW EE_RX_RATE_MODE
+REG      8      0   RW RX_MODE_8B
+REG    7:6      0   RW EL_RX_RATE_MODE
+REG    5:4      1   RW EC_RX_RATE_MODE
+REG    3:0    0xa   RW UNUSED_RXDIV_MISC1_CTL__3_0
+
+############################################
+#   rxdiv_slip_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 192/0xc0 async RXDIV_SLIP_CTL
+REG   15:4      0   RW UNUSED_RXDIV_SLIP_CTL__15_4
+REG      3      0   RW RX_SLIP66
+REG    2:2      0   RW UNUSED_RXDIV_SLIP_CTL__2
+REG      1      0   RW RX_PHASE_REF_SLIP_PCS
+REG    0:0      0   RW UNUSED_RXDIV_SLIP_CTL__0
+
+############################################
+#   rxdiv_misc2_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 193/0xc1 async RXDIV_MISC2_CTL
+REG     15      0   RW PCS_DIVX_SEL
+REG  14:11      0   RW UNUSED_RXDIV_MISC2_CTL__14_11
+REG   10:8      0   RW RX_PCSDIV
+REG    7:4      0   RW UNUSED_RXDIV_MISC2_CTL__7_4
+REG      3      0   RW MODE66
+REG      2      0   RW AUTOSLIP_SEL
+REG      1      0   RW FASTSLIP_SEL10_PCS
+REG      0      0   RW FASTSLIP_SEL66
+
+############################################
+#   rxdiv_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 194/0xc2 async RXDIV_PD_CTL
+REG   15:4  0xfff   RW UNUSED_RXDIV_PD_CTL__15_4
+REG      3      1   RW FWGEN_PD_3
+REG      2      1   RW FWGEN_PD_2
+REG      1      1   RW FWGEN_PD_1
+REG      0      1   RW FWGEN_PD_0
+
+############################################
+#   rxdiv_read_ctl
+#   Register_type = Read_Register
+############################################
+ADDR 195/0xc3 async RXDIV_READ_CTL
+REG   15:2      0   R  UNUSED_RXDIV_READ_CTL__15_2
+REG      1      0   R  RX_EC_SYNC
+REG      0      0   R  RX_FIFO_SYNC
+
+#################################################################
+####  A_TOP.RX.EI_TEST.EI
+#################################################################
+#
+############################################
+#   eidet_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 196/0xc4 async EIDET_CTL
+REG  15:10      0   RW UNUSED_EIDET_CTL__15_10
+REG      9      0   RW FORCE_ELECIDLE_ZERO_N
+REG      8      1   RW EIDET_PD
+REG    7:5      0   RW UNUSED_EIDET_CTL__7_5
+REG    4:0      3   RW IDLE_THRESHOLD
+
+#################################################################
+####  A_TOP.RX.reg_iface
+#################################################################
+#
+############################################
+#   rx_misc_out
+#   Register_type = Base_Register
+############################################
+ADDR 197/0xc5 async RX_MISC_OUT
+REG   15:4      0   RW UNUSED_RX_MISC_OUT__15_4
+REG      3      0   RW SEL_PI_OBS
+REG      2      0   RW SEL_DFE_OBS
+REG      1      0   RW SEL_DECEL_OBS
+REG      0      0   RW RXLPBKEN
+
+############################################
+#   rx_misc_pd
+#   Register_type = Power_Down_Register
+############################################
+ADDR 198/0xc6 async RX_MISC_PD
+REG   15:8   0xff   RW UNUSED_RX_MISC_PD__15_8
+REG      7      1   RW TERM_AMP_PD_3
+REG      6      1   RW TERM_AMP_PD_2
+REG      5      1   RW TERM_AMP_PD_1
+REG      4      1   RW TERM_AMP_PD_0
+REG      3      1   RW IREF_PD_3
+REG      2      1   RW IREF_PD_2
+REG      1      1   RW IREF_PD_1
+REG      0      1   RW IREF_PD_0
+
+############################################
+#   rx_misc_jtag
+#   Register_type = Jtag_Register
+############################################
+ADDR 199/0xc7 async RX_MISC_JTAG
+REG   15:7      0   RW UNUSED_RX_MISC_JTAG__15_7
+REG      6      1   RW DCFLOAT
+REG      5      0   RW DCLEVEL
+REG    4:3      2   RW VHYS_CTL
+REG      2      0   RW ENHYSCP
+REG      1      0   RW ACEXTEST_EN
+REG      0      0   RW DMA_EN_RX_MISC_JTAG
+
+############################################
+#   rx_misc_read1
+#   Register_type = Read_Register
+############################################
+ADDR 200/0xc8 async RX_MISC_READ1
+REG   15:0      0   R  LE_CORE_ANALOG_BUF
+
+############################################
+#   rx_misc_read2
+#   Register_type = Read_Register
+############################################
+ADDR 201/0xc9 async RX_MISC_READ2
+REG   15:6      0   R  UNUSED_RX_MISC_READ2__15_6
+REG      5      0   R  BUF_LE_RX_TEST__ACEXTEST_INIT_T
+REG      4      0   R  BUF_LE_RX_TEST__ACEXTEST_INIT_C
+REG      3      0   R  BUF_LE_RX_TEST__ACEXTEST_CAPTURE
+REG      2      0   R  EL_RX_TEST__ACEXTEST_DATA_T
+REG      1      0   R  EL_RX_TEST__ACEXTEST_DATA_C
+REG      0      0   R  EL_RX_IDLE_DETECT
+
+#################################################################
+####  A_TOP.RX.RX_PLL
+#################################################################
+#
+############################################
+#   rx_pll_divx_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 202/0xca async RX_PLL_DIVX_CTL
+REG     15      1   RW RX_DIVX_HS_SEL
+REG     14      0   RW RX_DIVX_HS_HALF_DIV
+REG   13:8   0x1e   RW RX_DIVX_HS_HI
+REG    7:6      0   RW UNUSED_RX_PLL_DIVX_CTL__7_6
+REG    5:0   0x14   RW RX_DIVX_HS_LO
+
+############################################
+#   rx_pll_divx2_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 203/0xcb async RX_PLL_DIVX2_CTL
+REG  15:14      0   RW TEST_CKMUX_EN
+REG     13      0   RW PIDIV_EN
+REG     12      0   RW PIDIVIN
+REG  11:10      0   RW UNUSED_RX_PLL_DIVX2_CTL__11_10
+REG    9:8      0   RW RX_DIVX_IN_CNTL
+REG      7      0   RW RX_DIVX_LS_HALF_DIV
+REG    6:4      6   RW RX_DIVX_LS_HI
+REG      3      0   RW RX_DIVX_LS_DIV1
+REG    2:0      4   RW RX_DIVX_LS_LO
+
+############################################
+#   rx_pll_divx_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 204/0xcc async RX_PLL_DIVX_PD_CTL
+REG  15:12    0xf   RW UNUSED_RX_PLL_DIVX_PD_CTL__15_12
+REG     11      1   RW PD_RX_DIVX_PRESCALE_3
+REG     10      1   RW PD_RX_DIVX_PRESCALE_2
+REG      9      1   RW PD_RX_DIVX_PRESCALE_1
+REG      8      1   RW PD_RX_DIVX_PRESCALE_0
+REG      7      1   RW PD_RX_DIVX_HS_3
+REG      6      1   RW PD_RX_DIVX_HS_2
+REG      5      1   RW PD_RX_DIVX_HS_1
+REG      4      1   RW PD_RX_DIVX_HS_0
+REG      3      1   RW PD_RX_DIVX_LS_3
+REG      2      1   RW PD_RX_DIVX_LS_2
+REG      1      1   RW PD_RX_DIVX_LS_1
+REG      0      1   RW PD_RX_DIVX_LS_0
+
+############################################
+#   rx_pll_dcc_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 205/0xcd async RX_PLL_DCC_PD_CTL
+REG   15:8   0xff   RW UNUSED_RX_PLL_DCC_PD_CTL__15_8
+REG      7      1   RW RXDCC_F2I_PD_3
+REG      6      1   RW RXDCC_F2I_PD_2
+REG      5      1   RW RXDCC_F2I_PD_1
+REG      4      1   RW RXDCC_F2I_PD_0
+REG      3      1   RW RXDCC_F2Q_PD_3
+REG      2      1   RW RXDCC_F2Q_PD_2
+REG      1      1   RW RXDCC_F2Q_PD_1
+REG      0      1   RW RXDCC_F2Q_PD_0
+
+#################################################################
+####  A_TOP.TX.TX_PLL
+#################################################################
+#
+############################################
+#   tx_pll_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 208/0xd0 async TX_PLL_MISC_CTL
+REG     15      0   RW TX_TEST_CLK_CNTL_1
+REG     14      0   RW TX_TEST_CLK_CNTL_0
+REG  13:12      0   RW UNUSED_TX_PLL_MISC_CTL__13_12
+REG     11      1   RW TX_CAL_UPDATE
+REG     10      0   RW TX_FORCE_PFD_UP
+REG      9      0   RW TX_FORCE_PFD_DN
+REG      8      0   RW TX_FORCE_PFD_OFF
+REG      7      0   RW TX_FPU_DISABLE_CHK
+REG      6      0   RW TX_FPU_FORCE
+REG      5      0   RW TX_FPU_CP_BOOST
+REG      4      0   RW TX_FPU_PFD_STARTUP
+REG      3      0   RW TX_CAL_FORCE_CALIBRATION
+REG      2      0   RW TX_FPU_HI_GAIN
+REG    1:0      0   RW UNUSED_TX_PLL_MISC_CTL__1_0
+
+############################################
+#   tx_pll_sel_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 209/0xd1 async TX_PLL_SEL_CTL
+REG  15:12      0   RW UNUSED_TX_PLL_SEL_CTL__15_12
+REG     11      0   RW TX_PLL_PCIE_CORE_SELECT
+REG     10      0   RW TX_PLL_REFERENCE_SELECT
+REG    9:0      0   RW UNUSED_TX_PLL_SEL_CTL__9_0
+
+############################################
+#   tx_pll_gain
+#   Register_type = Base_Register
+############################################
+ADDR 210/0xd2 async TX_PLL_GAIN
+REG  15:13      0   RW UNUSED_TX_PLL_GAIN__15_13
+REG   12:8      5   RW TX_INT_GAIN
+REG    7:5      0   RW UNUSED_TX_PLL_GAIN__7_5
+REG    4:0    0xc   RW TX_BB_GAIN
+
+############################################
+#   tx_pll_thrm_cal
+#   Register_type = Shadow_Register
+#   Update = A_TOP.TX.TX_PLL.tx_cal_update
+############################################
+ADDR 211/0xd3 async TX_PLL_THRM_CAL
+REG  15:15      0   RW UNUSED_TX_PLL_THRM_CAL__15
+REG   14:0      0   RW TX_CAL_DAC_THERM
+
+############################################
+#   tx_pll_bin_cal
+#   Register_type = Shadow_Register
+#   Update = A_TOP.TX.TX_PLL.tx_cal_update
+############################################
+ADDR 212/0xd4 async TX_PLL_BIN_CAL
+REG   15:8      0   RW TX_VCO_ANALOG_GAIN
+REG    7:3      0   RW UNUSED_TX_PLL_BIN_CAL__7_3
+REG    2:0      0   RW TX_CAL_DAC_BIN
+
+############################################
+#   tx_pll_f2_div_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 213/0xd5 async TX_PLL_F2_DIV_CTL
+REG  15:15      0   RW UNUSED_TX_PLL_F2_DIV_CTL__15
+REG     14      0   RW TX_F2Q_EN
+REG   13:5      0   RW UNUSED_TX_PLL_F2_DIV_CTL__13_5
+REG    4:3      3   RW TX_F2DIV_S1
+REG    2:0      4   RW TX_F2DIV
+
+############################################
+#   tx_pll_f2_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 214/0xd6 async TX_PLL_F2_MISC_CTL
+REG  15:14      0   RW UNUSED_TX_PLL_F2_MISC_CTL__15_14
+REG  13:12      0   RW ADC_MUX_EN
+REG     11      1   RW TX_FDBK_EN_S1
+REG     10      1   RW TX_FDBK_EN
+REG      9      1   RW TX_SCR_DIV2_ENABLE
+REG    8:7      0   RW TX_QUADGEN_FB
+REG      6      1   RW TX_QUADGEN_FAST
+REG      5      1   RW TX_QUADGEN_RANGE
+REG    4:0      0   RW UNUSED_TX_PLL_F2_MISC_CTL__4_0
+
+############################################
+#   tx_pll_vref_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 215/0xd7 async TX_PLL_VREF_CTL
+REG  15:10      0   RW UNUSED_TX_PLL_VREF_CTL__15_10
+REG    9:0    0xe   RW VREF_CTRL
+
+############################################
+#   tx_pll_divx_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 216/0xd8 async TX_PLL_DIVX_CTL
+REG     15      1   RW TX_DIVX_HS_SEL
+REG     14      0   RW TX_DIVX_HS_HALF_DIV
+REG   13:8   0x1e   RW TX_DIVX_HS_HI
+REG    7:6      0   RW UNUSED_TX_PLL_DIVX_CTL__7_6
+REG    5:0   0x14   RW TX_DIVX_HS_LO
+
+############################################
+#   tx_pll_pd_ctl_1
+#   Register_type = Power_Down_Register
+############################################
+ADDR 217/0xd9 async TX_PLL_PD_CTL_1
+REG     15      1   RW TX_F2GEN_PD_3
+REG     14      1   RW TX_F2GEN_PD_2
+REG     13      1   RW TX_F2GEN_PD_1
+REG     12      1   RW TX_F2GEN_PD_0
+REG     11      1   RW TX_CPUMP_PD_3
+REG     10      1   RW TX_CPUMP_PD_2
+REG      9      1   RW TX_CPUMP_PD_1
+REG      8      1   RW TX_CPUMP_PD_0
+REG      7      1   RW TX_VCO_PD_3
+REG      6      1   RW TX_VCO_PD_2
+REG      5      1   RW TX_VCO_PD_1
+REG      4      1   RW TX_VCO_PD_0
+REG      3      1   RW TX_VREF_PD_3
+REG      2      1   RW TX_VREF_PD_2
+REG      1      1   RW TX_VREF_PD_1
+REG      0      1   RW TX_VREF_PD_0
+
+############################################
+#   tx_pll_pd_ctl_2
+#   Register_type = Power_Down_Register
+############################################
+ADDR 218/0xda async TX_PLL_PD_CTL_2
+REG   15:8   0xff   RW UNUSED_TX_PLL_PD_CTL_2__15_8
+REG      7      1   RW TX_FP18_PD_3
+REG      6      1   RW TX_FP18_PD_2
+REG      5      1   RW TX_FP18_PD_1
+REG      4      1   RW TX_FP18_PD_0
+REG      3      1   RW TX_INT_PD_3
+REG      2      1   RW TX_INT_PD_2
+REG      1      1   RW TX_INT_PD_1
+REG      0      1   RW TX_INT_PD_0
+
+#################################################################
+####  A_TOP.TX.ACCEL
+#################################################################
+#
+############################################
+#   accel_deemph_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 219/0xdb async ACCEL_DEEMPH_CTL
+REG     15      0   RW EXTRA_ATTN
+REG  14:10      0   RW POST_SEL
+REG    9:5      0   RW PREC_SEL
+REG    4:0      0   RW ATTN_SEL
+
+############################################
+#   accel_emph_sign_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 220/0xdc async ACCEL_EMPH_SIGN_CTL
+REG   15:2      0   RW UNUSED_ACCEL_EMPH_SIGN_CTL__15_2
+REG      1      0   RW POSITIVE_PRE
+REG      0      0   RW POSITIVE_POST
+
+############################################
+#   accel_obs_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 221/0xdd async ACCEL_OBS_CTL
+REG  15:11      0   RW UNUSED_ACCEL_OBS_CTL__15_11
+REG     10      0   RW CC_OBS_EN
+REG      9      0   RW TX_OBS_EN
+REG      8      0   RW SEL_RX_OBS
+REG      7      0   RW SEL_TXPHB_OBS
+REG      6      1   RW TX_SEL_BEACON_DATA
+REG      5      0   RW SEL_BSBCK
+REG      4      0   RW HALT_BSB
+REG    3:1      0   RW UNUSED_ACCEL_OBS_CTL__3_1
+REG      0      0   RW F2Q_TST_EN
+
+############################################
+#   accel_mode_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 222/0xde async ACCEL_MODE_CTL
+REG   15:7      8   RW UNUSED_ACCEL_MODE_CTL__15_7
+REG      6      0   RW TX_MODE_80
+REG      5      0   RW TX_MODE_64
+REG      4      0   RW TX_MODE_40
+REG      3      0   RW TX_MODE_32
+REG      2      1   RW TX_MODE_20
+REG      1      0   RW TX_MODE_16
+REG      0      0   RW TX_MODE_10
+
+############################################
+#   accel_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 223/0xdf async ACCEL_MISC_CTL
+REG   15:6      0   RW UNUSED_ACCEL_MISC_CTL__15_6
+REG      5      0   RW DATA_POLARITY_INVERT
+REG      4      1   RW F2CLK_FDBK_EN
+REG      3      1   RW TDE_DISABLE
+REG      2      0   RW SEL_RXIN
+REG      1      0   RW TX_LPBACK_EN
+REG      0      0   RW TX_OUTPUT_EN
+
+############################################
+#   accel_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 224/0xe0 async ACCEL_PD_CTL
+REG   15:8   0xff   RW UNUSED_ACCEL_PD_CTL__15_8
+REG      7      1   RW TX_ACC_DCC_PD_3
+REG      6      1   RW TX_ACC_DCC_PD_2
+REG      5      1   RW TX_ACC_DCC_PD_1
+REG      4      1   RW TX_ACC_DCC_PD_0
+REG      3      1   RW TX_ACCEL_PD_3
+REG      2      1   RW TX_ACCEL_PD_2
+REG      1      1   RW TX_ACCEL_PD_1
+REG      0      1   RW TX_ACCEL_PD_0
+
+############################################
+#   accel_read_ctl
+#   Register_type = Read_Register
+############################################
+ADDR 225/0xe1 async ACCEL_READ_CTL
+REG   15:1      0   R  UNUSED_ACCEL_READ_CTL__15_1
+REG      0      0   R  TX_LSSEL_PHASE
+
+#################################################################
+####  A_TOP.TX.DIVIDER
+#################################################################
+#
+############################################
+#   tx_div_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 226/0xe2 async TX_DIV_MISC_CTL
+REG     15      1   RW TX_PCS_DISABLE
+REG  14:11      0   RW TX_PCSDIV
+REG     10      1   RW TX_MODE_NOT10b
+REG    9:8      0   RW UNUSED_TX_DIV_MISC_CTL__10_8
+REG      7      0   RW TX_REFCLK_SYNC_MASTER
+REG      6      0   RW TX_DIVX_SYNC_MASTER
+REG      5      0   RW TX_MODE_8B
+REG    4:3      0   RW UNUSED_TX_DIV_MISC_CTL__4_3
+REG      2      0   RW TX_PHASE_REF_SLIP_E
+REG      1      0   RW TX_PHASE_REF_SLIP_C
+REG      0      0   RW TX_PHASE_REF_SLIP_L
+
+############################################
+#   tx_div_misc2_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 227/0xe3 async TX_DIV_MISC2_CTL
+REG  15:10   0x28   RW TX_DIVX_DIV
+REG    9:4   0x28   RW TX_REFCLK_DIV
+REG    3:2      1   RW EC_TX_RATE_MODE
+REG    1:0      1   RW EL_TX_RATE_MODE
+
+############################################
+#   tx_div_read_ctl
+#   Register_type = Read_Register
+############################################
+ADDR 228/0xe4 async TX_DIV_READ_CTL
+REG   15:3      0   R  UNUSED_TX_DIV_READ_CTL__15_3
+REG      2      0   R  TX_EE_SYNC
+REG      1      0   R  TX_EC_SYNC
+REG      0      0   R  TX_FIFO_SYNC
+
+#################################################################
+####  A_TOP.TX.SLW_DRV_REG
+#################################################################
+#
+############################################
+#   slw_drv_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 229/0xe5 async SLW_DRV_MISC_CTL
+REG  15:14      0   RW UNUSED_SLW_DRV_MISC_CTL__15_14
+REG  13:12      0   RW SUPPLY_MON2
+REG  11:10      0   RW MON_SEL2_FROM_DMA
+REG    9:8      1   RW IMP_SEL2_FROM_DMA
+REG      7      1   RW TX_IDLE_STATE
+REG    6:5      0   RW UNUSED_SLW_DRV_MISC_CTL__6_5
+REG      4      0   RW DETRX_LEV
+REG      3      0   RW DETRX_EN
+REG      2      1   RW SNAP_EN
+REG    1:0      0   RW SLEW
+
+############################################
+#   slw_drv_imp_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 230/0xe6 async SLW_DRV_IMP_CTL
+REG     15      0   RW IMP_LOCK
+REG     14      0   RW IMP_PD
+REG  13:11      0   RW UNUSED_SLW_DRV_IMP_CTL__13_11
+REG   10:8      0   RW IMP_SPEED
+REG    7:5      0   RW UNUSED_SLW_DRV_IMP_CTL__7_5
+REG    4:0      0   RW IMP_RES_CODE
+
+############################################
+#   slw_drv_read_ctl
+#   Register_type = Read_Register
+############################################
+ADDR 231/0xe7 async SLW_DRV_READ_CTL
+REG   15:6      0   R  UNUSED_SLW_DRV_READ_CTL__15_6
+REG    5:4      0   R  IMP_SEL2_TO_DMA
+REG    3:2      0   R  MON_SEL2_TO_DMA
+REG      1      0   R  DETRX
+REG    0:0      0   R  UNUSED_SLW_DRV_READ_CTL__0
+
+#################################################################
+####  A_TOP.TX.reg_iface
+#################################################################
+#
+############################################
+#   tx_misc_out0
+#   Register_type = Base_Register
+############################################
+ADDR 232/0xe8 async TX_MISC_OUT0
+REG   15:4      0   RW UNUSED_TX_MISC_OUT0__15_4
+REG      3      0   RW TX_LOOPBACK_EN
+REG      2      1   RW ADC_PD
+REG      1      0   RW ADCMUX_1
+REG      0      0   RW ADCMUX_0
+
+############################################
+#   tx_misc_pd
+#   Register_type = Power_Down_Register
+############################################
+ADDR 233/0xe9 async TX_MISC_PD
+REG   15:4  0xfff   RW UNUSED_TX_MISC_PD__15_4
+REG      3      1   RW TX_IREF_PD_3
+REG      2      1   RW TX_IREF_PD_2
+REG      1      1   RW TX_IREF_PD_1
+REG      0      1   RW TX_IREF_PD_0
+
+############################################
+#   tx_misc_read
+#   Register_type = Read_Register
+############################################
+ADDR 234/0xea async TX_MISC_READ
+REG   15:8      0   R  EL_ANALOG_TO_CNTL
+REG      7      0   R  LE_TX_ALERT_TX_EQ
+REG      6      0   R  EL_ADC
+REG      5      0   R  LE_TX_ELEC_IDLE_EN
+REG      4      0   R  LE_TX_TEST__EXTEST_DATA_T
+REG      3      0   R  LE_TX_TEST__EXTEST_DATA_C
+REG      2      0   R  LE_TX_REFCLK_SYNC_IN
+REG      1      0   R  EL_TX_REFCLK_SYNC_OUT
+REG    0:0      0   R  UNUSED_TX_MISC_READ__0
+
+############################################
+#   tx_misc_jtag
+#   Register_type = Jtag_Register
+############################################
+ADDR 235/0xeb async TX_MISC_JTAG
+REG   15:6      0   RW UNUSED_TX_MISC_JTAG__15_6
+REG      5      0   RW DMA_SMARTEI_EN
+REG      4      0   RW DMA_MAIN_TRI_EN
+REG      3      0   RW DMA_CNTL_ENABLE
+REG      2      0   RW TX_DRVR_HIZ
+REG      1      0   RW TX_TEST_MODE
+REG      0      0   RW DMA_EN_TX_MISC_JTAG
+
+#################################################################
+####  A_TOP.CK_TOP.reg_iface
+#################################################################
+#
+############################################
+#   clk_misc_out0
+#   Register_type = Base_Register
+############################################
+ADDR 240/0xf0 async CLK_MISC_OUT0
+REG   15:8      0   RW LC_BSB_CNTL
+REG      7      0   RW SEL_REF_DIVX
+REG      6      0   RW CLK_MISC_OUT0_6_6
+REG      5      0   RW ADC_CLK_EN
+REG      4      0   RW SPICO_CLK_DIV2_EN
+REG      3      0   RW PCIE_CORE_CLK_EN
+REG      2      0   RW CLK_MISC_OUT0_3_3
+REG      1      0   RW SEL_PCIE_CORE_AS_DIVX
+REG      0      0   RW SEL_RX_DIVX
+
+############################################
+#   clk_misc_out1
+#   Register_type = Base_Register
+############################################
+ADDR 241/0xf1 async CLK_MISC_OUT1
+REG   15:6      0   RW UNUSED_CLK_MISC_OUT1__15_6
+REG      5      0   RW LC_RX_SEL_F40_FIFO_CLK
+REG      4      0   RW LC_RX_SEL_F20_FIFO_CLK
+REG      3      0   RW LC_RX_SEL_F20_CLK
+REG      2      0   RW LC_TX_SEL_F40_FIFO_CLK
+REG      1      0   RW LC_TX_SEL_F20_FIFO_CLK
+REG      0      0   RW LC_TX_SEL_F20_CLK
+
+############################################
+#   clk_idcode_read
+#   Register_type = Read_Register
+############################################
+ADDR 242/0xf2 async CLK_IDCODE_READ
+REG   15:0      0   R  ESB_IDCODE
+
+############################################
+#   clk_misc_read
+#   Register_type = Read_Register
+############################################
+ADDR 243/0xf3 async CLK_MISC_READ
+REG   15:8      0   R  UNUSED_CLK_MISC_READ__15_8
+REG    7:0      0   R  CL_TEST__HALTED
+
+############################################
+#   clk_misc_jtag
+#   Register_type = Jtag_Register
+############################################
+ADDR 244/0xf4 async CLK_MISC_JTAG
+REG  15:15      0   RW UNUSED_CLK_MISC_JTAG__15
+REG     14      0   RW TEST__RX_EXECUTE_OVERRIDE
+REG  13:12      0   RW TEST__RX_EXECUTE_DELAY
+REG  11:10      0   RW TEST__RX_FIFO_EXECUTE_DELAY
+REG      9      0   RW TEST__RX_CLK_INV
+REG      8      0   RW TEST__RX_FIFO_CLK_INV
+REG      7      0   RW TEST__TX_EXECUTE_OVERRIDE
+REG    6:5      0   RW TEST__TX_EXECUTE_DELAY
+REG    4:3      0   RW TEST__TX_FIFO_EXECUTE_DELAY
+REG      2      0   RW TEST__TX_CLK_INV
+REG      1      0   RW TEST__TX_FIFO_CLK_INV
+REG      0      0   RW DMA_EN_CLK_MISC_JTAG
+
+#################################################################
+####  A_TOP.TX.TX_PLL
+#################################################################
+#
+############################################
+#   tx_pll_divx2_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 245/0xf5 async TX_PLL_DIVX2_CTL
+REG  15:10      0   RW UNUSED_TX_PLL_DIVX2_CTL__15_10
+REG    9:8      0   RW TX_DIVX_IN_CNTL
+REG      7      0   RW TX_DIVX_LS_HALF_DIV
+REG    6:4      6   RW TX_DIVX_LS_HI
+REG      3      0   RW TX_DIVX_LS_DIV1
+REG    2:0      4   RW TX_DIVX_LS_LO
+
+############################################
+#   tx_pll_divx_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 246/0xf6 async TX_PLL_DIVX_PD_CTL
+REG  15:12    0xf   RW UNUSED_TX_PLL_DIVX_PD_CTL__15_12
+REG     11      1   RW PD_DIVX_PRESCALE_3
+REG     10      1   RW PD_DIVX_PRESCALE_2
+REG      9      1   RW PD_DIVX_PRESCALE_1
+REG      8      1   RW PD_DIVX_PRESCALE_0
+REG      7      1   RW PD_DIVX_HS_3
+REG      6      1   RW PD_DIVX_HS_2
+REG      5      1   RW PD_DIVX_HS_1
+REG      4      1   RW PD_DIVX_HS_0
+REG      3      1   RW PD_DIVX_LS_3
+REG      2      1   RW PD_DIVX_LS_2
+REG      1      1   RW PD_DIVX_LS_1
+REG      0      1   RW PD_DIVX_LS_0
+
+#################################################################
+####  A_TOP.RX.RI.REG
+#################################################################
+#
+############################################
+#   predec_read_ctl
+#   Register_type = Read_Register
+############################################
+ADDR 247/0xf7 async PREDEC_READ_CTL
+REG   15:6      0   R  UNUSED_PREDEC_READ_CTL__15_6
+REG      5      0   R  RX_PHASE_REF_SLIP_MUX_E
+REG      4      0   R  RX_PHASE_REF_SLIP_MUX_C
+REG      3      0   R  RX_PHASE_REF_SLIP_MUX_L
+REG    2:0      0   R  UNUSED_PREDEC_READ_CTL__2_0
+
+############################################
+#   predec_misc_ctl
+#   Register_type = Base_Register
+############################################
+ADDR 248/0xf8 async PREDEC_MISC_CTL
+REG  15:10      0   RW UNUSED_PREDEC_MISC_CTL__15_10
+REG    9:8      0   RW PCS_S1_DIV
+REG    7:4      0   RW UNUSED_PREDEC_MISC_CTL__7_4
+REG      3      0   RW FASTSLIP_SEL10
+REG      2      0   RW RX_PHASE_REF_SLIP_E
+REG      1      0   RW RX_PHASE_REF_SLIP_C
+REG      0      0   RW RX_PHASE_REF_SLIP_L
+
+############################################
+#   predec_pd_ctl
+#   Register_type = Power_Down_Register
+############################################
+ADDR 250/0xfa async PREDEC_PD_CTL
+REG  15:12    0xf   RW UNUSED_PREDEC_PD_CTL__15_12
+REG     11      1   RW PD_PCS_3
+REG     10      1   RW PD_PCS_2
+REG      9      1   RW PD_PCS_1
+REG      8      1   RW PD_PCS_0
+REG      7      1   RW PREDEC_PD_TEST_3
+REG      6      1   RW PREDEC_PD_TEST_2
+REG      5      1   RW PREDEC_PD_TEST_1
+REG      4      1   RW PREDEC_PD_TEST_0
+REG      3      1   RW PREDEC_PD_DATA_3
+REG      2      1   RW PREDEC_PD_DATA_2
+REG      1      1   RW PREDEC_PD_DATA_1
+REG      0      1   RW PREDEC_PD_DATA_0
+
