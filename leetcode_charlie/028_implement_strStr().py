@@ -12,7 +12,7 @@ class Solution(object):
         h_len = len(haystack)
         n_len = len(needle)
         if not h_len or not n_len:
-            return 0 if h_len == n_len else -1
+            return 0 if (h_len == n_len or not n_len) else -1
 
         for i in range(h_len):
             j = 0
