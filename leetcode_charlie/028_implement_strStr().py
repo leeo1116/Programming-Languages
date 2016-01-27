@@ -8,6 +8,7 @@ class Solution(object):
         :type haystack: str
         :type needle: str
         :rtype: int
+
         """
         h_len = len(haystack)
         n_len = len(needle)
