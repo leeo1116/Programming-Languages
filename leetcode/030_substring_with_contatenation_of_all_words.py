@@ -45,4 +45,4 @@ class Solution:
         return ans
 
 s = Solution()
-print(s.findSubstring("barfoothefoobarman", ["foo", "bar"]))
+print(s.findSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", ["a", "a", "a", "a"]))
