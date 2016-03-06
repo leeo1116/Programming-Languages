@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/034_search_for_a_range.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/035_search_insert_position.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/036_valid_sodoku.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/038_count_and_say.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/039_combination_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/040_combination_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes.txt" />
+    <list default="true" id="8b5a7cf7-5183-4a12-b991-6710ef4a71bd" name="Default" comment="03/06">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode_charlie/046_permutations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lucky_money/lucky_money_game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PyCharm.iml" afterPath="$PROJECT_DIR$/.idea/PyCharm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py" afterPath="$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py" />
     </list>
     <list id="3a7a3dbb-bae0-4f26-93ae-bb76c8bf73c3" name="Failed commit: Default" comment="09/01" />
     <ignored path="PyCharm.iws" />
@@ -32,26 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="031_next_permutation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/031_next_permutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="031_next_permutation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode_charlie/031_next_permutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="034_search_for_a_range.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode_charlie/034_search_for_a_range.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +89,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="043_multiply_strings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="043_multiply_strings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="046_permutations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode_charlie/046_permutations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18811882">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lucky_money_game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucky_money/lucky_money_game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -154,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/django/venv/src/templates/forms.html" />
-        <option value="$PROJECT_DIR$/django/venv/src/test_project/settings/base.py" />
         <option value="$PROJECT_DIR$/django/venv/src/test_project/settings/local.py" />
         <option value="$PROJECT_DIR$/django/venv/src/test_project/old_settings.py" />
         <option value="$PROJECT_DIR$/django/venv/src/test_project/settings/production.py" />
@@ -204,7 +199,9 @@
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/leetcode_charlie/039_combination_sum.py" />
         <option value="$PROJECT_DIR$/leetcode_charlie/040_combination_sum.py" />
+        <option value="$PROJECT_DIR$/lucky_money/lucky_money_game.py" />
         <option value="$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py" />
+        <option value="$PROJECT_DIR$/leetcode_charlie/046_permutations.py" />
       </list>
     </option>
   </component>
@@ -255,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -275,28 +271,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode_charlie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/django/venv/src/test_project/settings/local.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="183" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="188" />
@@ -323,13 +306,6 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GitHub\PyCharm\django\venv\src\templates" />
-      <recent name="F:\GitHub\PyCharm\django\venv\src" />
-      <recent name="F:\GitHub\PyCharm\django\venv\src\static_in_pro\our_static\img" />
-      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\avago_simba\simba_data\9 Inch LSDIO1 SerDes0X06" />
-      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\avago_simba\simba_data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\GitHub\PyCharm\leetcode" />
       <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\avago_simba" />
@@ -337,25 +313,15 @@
       <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern" />
       <recent name="F:\GitHub\PyCharm" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\PyCharm\django\venv\src\templates" />
+      <recent name="F:\GitHub\PyCharm\django\venv\src" />
+      <recent name="F:\GitHub\PyCharm\django\venv\src\static_in_pro\our_static\img" />
+      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\avago_simba\simba_data\9 Inch LSDIO1 SerDes0X06" />
+      <recent name="C:\Users\liangl2\Documents\Liang Li\Codes\Python\PyCharm\intern\avago_simba\simba_data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.040_combination_sum">
-    <configuration default="false" name="031_next_permutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_charlie" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/031_next_permutation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.043_multiply_strings">
     <configuration default="false" name="035_search_insert_position" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -420,6 +386,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyCharm" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/040_combination_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="043_multiply_strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_charlie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -565,19 +548,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.hxg" />
-      <item index="1" class="java.lang.String" itemvalue="Python.031_next_permutation" />
-      <item index="2" class="java.lang.String" itemvalue="Python.035_search_insert_position" />
-      <item index="3" class="java.lang.String" itemvalue="Python.038_count_and_say" />
-      <item index="4" class="java.lang.String" itemvalue="Python.039_combination_sum" />
-      <item index="5" class="java.lang.String" itemvalue="Python.040_combination_sum" />
+      <item index="1" class="java.lang.String" itemvalue="Python.035_search_insert_position" />
+      <item index="2" class="java.lang.String" itemvalue="Python.038_count_and_say" />
+      <item index="3" class="java.lang.String" itemvalue="Python.039_combination_sum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.040_combination_sum" />
+      <item index="5" class="java.lang.String" itemvalue="Python.043_multiply_strings" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.040_combination_sum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.039_combination_sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.038_count_and_say" />
-        <item index="3" class="java.lang.String" itemvalue="Python.035_search_insert_position" />
-        <item index="4" class="java.lang.String" itemvalue="Python.031_next_permutation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.043_multiply_strings" />
+        <item index="1" class="java.lang.String" itemvalue="Python.040_combination_sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.039_combination_sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.038_count_and_say" />
+        <item index="4" class="java.lang.String" itemvalue="Python.035_search_insert_position" />
       </list>
     </recent_temporary>
   </component>
@@ -591,12 +574,6 @@
       <created>1433398666103</created>
       <option name="number" value="Default" />
       <updated>1433398666103</updated>
-    </task>
-    <task id="LOCAL-00064" summary="08/28">
-      <created>1440746603307</created>
-      <option name="number" value="00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1440746603309</updated>
     </task>
     <task id="LOCAL-00065" summary="08/28">
       <created>1440746646821</created>
@@ -886,7 +863,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454696528045</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="02/07">
+      <created>1454902658288</created>
+      <option name="number" value="00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1454902658314</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -910,28 +893,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24181548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30016312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2990196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24019608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2985318" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46166396" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29738563" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -947,8 +930,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="08/21" />
-    <MESSAGE value="08/24" />
     <MESSAGE value="08/25" />
     <MESSAGE value="08/28" />
     <MESSAGE value="08/31" />
@@ -972,7 +953,9 @@
     <MESSAGE value="01/27" />
     <MESSAGE value="02/04" />
     <MESSAGE value="02/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="02/05" />
+    <MESSAGE value="02/07" />
+    <MESSAGE value="03/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,25 +1044,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="169" />
+      <option name="time" value="170" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_review/python_tutorials_basics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.793103">
-          <caret line="316" column="27" selection-start-line="316" selection-start-column="27" selection-end-line="316" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/014_longest_common_prefix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/015_3sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1334,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="34" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,14 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_charlie/039_combination_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1431,10 +1387,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucky_money/lucky_money_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_charlie/043_multiply_strings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_charlie/046_permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18811882">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
