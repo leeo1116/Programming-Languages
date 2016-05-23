@@ -55,6 +55,7 @@ class NestedIterator(object):
             new_nested_list = self.nested_list.getList()
             return new_nested_list.next()
 
+
     def hasNext(self):
         """
         :rtype: bool
