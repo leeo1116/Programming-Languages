@@ -8,6 +8,8 @@ class NestedInteger(object):
        @return True if this NestedInteger holds a single integer, rather than a nested list.
        :rtype bool
        """
+       return isinstance(self, int)
+
 
    def getInteger(self):
        """
@@ -15,6 +17,10 @@ class NestedInteger(object):
        Return None if this NestedInteger holds a nested list
        :rtype int
        """
+       if self.isInteger():
+           return self
+       else:
+           return None
 
    def getList(self):
        """
@@ -22,6 +28,11 @@ class NestedInteger(object):
        Return None if this NestedInteger holds a single integer
        :rtype List[NestedInteger]
        """
+       if self.isInteger():
+           return None
+       else:
+           return self
+
 
 class NestedIterator(object):
     def __init__(self, nestedList):
@@ -41,7 +52,8 @@ class NestedIterator(object):
         if self.nested_list.isInteger():
             return self.nested_list.getInteger()
         else:
-            return self.next()
+            new_nested_list = self.nested_list.getList()
+            return new_nested_list.next()
 
     def hasNext(self):
         """
@@ -49,8 +61,11 @@ class NestedIterator(object):
         """
         if self.cursor == self.nl_len:
             return False
+        else:
+            return True
 
 
-        # Your NestedIterator object will be instantiated and called as such:
-        # i, v = NestedIterator(nestedList), []
-        # while i.hasNext(): v.append(i.next())
+i, v = NestedIterator([1, 2]), []
+while i.hasNext():
+    v.append(i.next())
+print(v)
