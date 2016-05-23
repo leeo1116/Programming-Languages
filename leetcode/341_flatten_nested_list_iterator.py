@@ -41,7 +41,7 @@ class NestedIterator(object):
         if self.nested_list.isInteger():
             return self.nested_list.getInteger()
         else:
-            return 0
+            return self.next()
 
     def hasNext(self):
         """
