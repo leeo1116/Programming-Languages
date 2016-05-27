@@ -1,10 +1,13 @@
+import collections
+
+
 class Solution(object):
     def findItinerary(self, tickets):
         """
         :type tickets: List[List[str]]
         :rtype: List[str]
         """
-        from_to_dict = {}
+        from_to_dict = {}  # or use collections.defaultdict(list)
         tickets_len = len(tickets)
         for ticket in tickets:
             if from_to_dict.get(ticket[0], None):
@@ -17,22 +20,19 @@ class Solution(object):
             else:
                 from_to_dict[ticket[0]] = [ticket[1]]
 
-        iti_list = ["JFK"]*(tickets_len+1)
-        for i in range(1, tickets_len+1):
-            first_dest = from_to_dict[iti_list[i-1]][-1]
-            temp = ""
-            if from_to_dict.get(first_dest, None) or i == tickets_len:
-                iti_list[i] = from_to_dict[iti_list[i-1]].pop()
-            else:
-                temp = from_to_dict[iti_list[i-1]].pop()
-                iti_list[i] = from_to_dict[iti_list[i - 1]].pop()
-                from_to_dict[iti_list[i-1]].append(temp)
+        iti_list = []
 
+        def visit(city_from):
+            global iti_list
+            while from_to_dict.get(city_from, None):
+                visit(from_to_dict[city_from].pop())
+            iti_list = iti_list+[city_from]
+
+        visit("JFK")
         return iti_list
 
-
 s = Solution()
-print(s.findItinerary([["EZE","TIA"],["EZE","HBA"],["AXA","TIA"],["JFK","AXA"],["ANU","JFK"],["ADL","ANU"],["TIA","AUA"],["ANU","AUA"],["ADL","EZE"],["ADL","EZE"],["EZE","ADL"],["AXA","EZE"],["AUA","AXA"],["JFK","AXA"],["AXA","AUA"],["AUA","ADL"],["ANU","EZE"],["TIA","ADL"],["EZE","ANU"],["AUA","ANU"]]))
-
+tickets = [["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]
+print(s.findItinerary(tickets))
 
 
