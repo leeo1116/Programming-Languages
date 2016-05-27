@@ -1,6 +1,5 @@
 import collections
 
-
 class Solution(object):
     def findItinerary(self, tickets):
         """
@@ -23,16 +22,26 @@ class Solution(object):
         iti_list = []
 
         def visit(city_from):
-            global iti_list
             while from_to_dict.get(city_from, None):
                 visit(from_to_dict[city_from].pop())
-            iti_list = iti_list+[city_from]
+            iti_list.append(city_from)
 
         visit("JFK")
-        return iti_list
+        return iti_list[::-1]
 
 s = Solution()
 tickets = [["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]
 print(s.findItinerary(tickets))
 
 
+# def func():
+#     a = [0]
+#
+#     def swim():
+#         # a.append(3)
+#         a = [1]+a
+#         return a
+#     return swim()
+#
+# print(func())
+#
