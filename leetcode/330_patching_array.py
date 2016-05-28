@@ -20,4 +20,4 @@ class Solution(object):
 
 
 s = Solution()
-print(s.minPatches([], 8))
+print(s.minPatches([9], 10))
