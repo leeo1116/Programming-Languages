@@ -7,7 +7,7 @@ class Solution(object):
         :rtype: int
         """
         nums_len = len(nums)
-        range_sum = [0]*(nums_len+1)  # why nums_len+1 instead of nums_len
+        range_sum = [0]*(nums_len+1)  # why nums_len+1 instead of nums_len: to introduce S(0), so A(1) = S(1)-S(0)
         for i in range(nums_len):
             range_sum[i+1] = range_sum[i]+nums[i]
         return self.count_while_merge_sort(range_sum, 0, nums_len+1, lower, upper)  # why nums_len+1
