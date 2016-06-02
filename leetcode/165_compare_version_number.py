@@ -7,27 +7,15 @@ class Solution(object):
         """
         v1_list = version1.split('.')
         v2_list = version2.split('.')
-        i = j = 0
-        while i < len(v1_list) and j < len(v2_list):
-            if int(v1_list[i]) > int(v2_list[j]):
-                return 1
-            elif int(v1_list[i]) < int(v2_list[j]):
-                return -1
-            else:
-                i += 1
-                j += 1
-                continue
-
-        if i != len(v1_list) and j == len(v2_list):
-            return 1
-        elif i == len(v1_list) and j != len(v2_list):
-            return -1
-        elif i == len(v1_list) and j == len(v2_list):
-            return 0
-        else:
-            print("Never print this")
-
-
+        v1_list_len = len(v1_list)
+        v2_list_len = len(v2_list)
+        max_len = max(v1_list_len, v2_list_len)
+        for i in range(max_len):
+            v1 = int(v1_list[i]) if i < v1_list_len else 0
+            v2 = int(v2_list[i]) if i < v2_list_len else 0
+            if v1 != v2:
+                return 1-2*(v2 > v1)
+        return 0
 
 s = Solution()
-print(s.compareVersion("1", "1.1"))
+print(s.compareVersion("1", "1.0.1"))
