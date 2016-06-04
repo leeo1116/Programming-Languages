@@ -21,9 +21,6 @@ class Solution(object):
 
 
 
-        for i, w1 in enumerate(ladder_list[1]:
-            ladder_list += [w1]
-        for key, value in distance_word_dict.items():
 
 
 
