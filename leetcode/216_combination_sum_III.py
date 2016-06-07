@@ -6,23 +6,27 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         combination = []
-        return self.combination_sum_helper(k, n, 1, combination)
-
-    def combination_sum_helper(self, k, n, start, combination):
-        if n == start:
-            return [[start]]
-        if k == 0:
-            return [[]]
-
-        for i in range(start, 10):
-            if k:
-                comb = self.combination_sum_helper(k-1, n-i, i+1, combination)
-            else:
-                comb = self.combination_sum_helper(k, n, i+1, combination)
-            for c in comb:
-                combination.append([i]+c)
+        self.combination_sum_helper(k, n, 1, combination)
         return combination
 
+    def combination_sum_helper(self, k, n, start, combination):
+        # combination = []
+        for i in range(start, 10):
+            if i > n:
+                return []
+            if k == 1:
+                if i == n:
+                    return [[i]]
+                else:
+                    continue
+            sub_combination = self.combination_sum_helper(k-1, n-i, i+1, combination)
+            if sub_combination:
+                sub_combination_len = len(sub_combination)
+                for j in range(sub_combination_len):
+                    sub_combination[j].insert(0, start)
+                    combination.append(sub_combination[j])
+
+        return combination
 
 s = Solution()
-print(s.combinationSum3(2, 7))
+print(s.combinationSum3(2, 5))
