@@ -5,28 +5,24 @@ class Solution(object):
         :type n: int
         :rtype: List[List[int]]
         """
-        combination = []
-        self.combination_sum_helper(k, n, 1, combination)
-        return combination
+        return self.combination_sum_helper(k, n, 1)
 
-    def combination_sum_helper(self, k, n, start, combination):
-        # combination = []
+    def combination_sum_helper(self, k, n, start):
+        combination = []
         for i in range(start, 10):
-            if i > n:
-                return []
+            if i > n/k:
+                return combination
             if k == 1:
                 if i == n:
                     return [[i]]
                 else:
                     continue
-            sub_combination = self.combination_sum_helper(k-1, n-i, i+1, combination)
-            if sub_combination:
-                sub_combination_len = len(sub_combination)
-                for j in range(sub_combination_len):
-                    sub_combination[j].insert(0, start)
-                    combination.append(sub_combination[j])
 
+            for c in self.combination_sum_helper(k-1, n-i, i+1):
+                combination.append([i]+c)
         return combination
 
+
+
 s = Solution()
-print(s.combinationSum3(2, 5))
+print(s.combinationSum3(3, 9))
