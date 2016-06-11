@@ -20,26 +20,24 @@ class Solution(object):
         temp = []
         for num in nums:
             pos = self.binary_search(temp, 0, len(temp), num)
-            if pos > len(temp):
+            if pos >= len(temp):
                 temp.append(num)
             else:
                 temp[pos] = num
         return len(temp)
 
-    def binary_search(self, nums, start, stop, target):
-        if start > stop:
-            return -1
-        mid = start+(stop-start)//2
+    def binary_search(self, nums, left, right, target):
+        if left == right:
+            return left
+        mid = left + (right - left) // 2
         if nums[mid] < target:
-            return self.binary_search(nums, mid+1, stop, target)
-        elif nums[mid] > target:
-            return self.binary_search(nums, start, mid-1, target)
+            return self.binary_search(nums, mid + 1, right, target)
         else:
-            return mid
+            return self.binary_search(nums, left, mid - 1, target)
 
 
 s = Solution()
 nums1 = [1, 4, 6, 8, 9]
 nums = [10, 9, 2, 5, 3, 4]
-print(s.binary_search(nums1, 0, len(nums1)-1, 6))
+# print(s.binary_search(nums, 0, len(nums)-1, 10))
 print(s.lengthOfLIS(nums))
