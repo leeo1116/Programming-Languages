@@ -7,16 +7,11 @@ class Solution(object):
         """
         if not triangle:
             return 0
-        min_sum = triangle[0][0]
-        pre_index = 0
-        for i in range(1, len(triangle)):
-            if triangle[i][pre_index] < triangle[i][pre_index+1]:
-                min_sum += triangle[i][pre_index]
-                pre_index = pre_index
-            else:
-                min_sum += triangle[i][pre_index+1]
-                pre_index += 1
-        return min_sum
+        min_sum = triangle[-1]
+        for i in range(len(triangle)-2, -1, -1):
+            for j in range(len(triangle[i])):
+                min_sum[j] = triangle[i][j]+min(min_sum[j], min_sum[j+1])
+        return min_sum[0]
 
 s = Solution()
 print(s.minimumTotal([[-1],[2,3],[1,-1,-3]]))
