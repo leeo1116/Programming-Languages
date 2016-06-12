@@ -5,6 +5,9 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        res =
-        for i in range(m, n+1):
-            res &=
+        while n > m:
+            n &= n-1
+        return m&n
+
+s = Solution()
+print(s.rangeBitwiseAnd(5, 7))
