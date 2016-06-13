@@ -6,19 +6,19 @@ class Solution(object):
         :rtype: int
         """
         ugly = [1] * n
-        i_list = [-1] * len(primes)
-        v_list = [1] * len(primes)
+        i_list = [-1]*len(primes)
+        v_list = [1]*len(primes)
         k = 0
         while k < n:
-            x = min(v_list)
-            ugly[k] = x
+            cur_ugly = min(v_list)
+            ugly[k] = cur_ugly
             for v in range(len(v_list)):
-                if x == v_list[v]:
+                if cur_ugly == v_list[v]:
                     i_list[v] += 1
-                    v_list[v] = ugly[i_list[v]] * primes[v]
-            print(x, ugly[k], v_list, i_list, ugly)
+                    v_list[v] = ugly[i_list[v]]*primes[v]
             k += 1
-        return ugly[k - 1]
+        return ugly[k-1]
+
 
 
 s = Solution()
