@@ -13,3 +13,13 @@ class Solution(object):
                     return True
                 j += 1
         return False
+
+
+    def contains_duplicates(self, nums, k, t):
+        nums.sort()
+        i = 0
+        while i < len(nums)-k:
+            if nums[i+k]-nums[i] <= t:
+                return True
+
+
